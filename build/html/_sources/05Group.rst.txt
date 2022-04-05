@@ -35,9 +35,9 @@ Resources
 
 What shared resources should we develop? What outside experts should we call in for this?
 
-- hpc3 documentation TODO LInk to the one we made!
+- hpc3 tips (Private link, see Jun and Read Lab)
 
-- Adobe Illustrator
+- `Adobe Illustrator <https://docs.google.com/document/d/1EYdjaOwpue67TTzuhmREVdxPPGHpJ3MLh0YmSg1zFJg/edit?usp=sharing>`_
 
 Within-team wisdom-sharing has been the single biggest superpower of the Allard Lab. It leads to exponential improvement, like compound interest. How do we maintain that in an asynchronous world? A remote world? My worst concern is that the advantages of asynchronous Work From Home are *multiplicative*, while the advantages of synchronous, in-person work are *exponential* (because they compound). If true, at first it seems like WFH is better, but you pay the price later.
 
