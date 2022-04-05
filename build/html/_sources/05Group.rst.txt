@@ -1,0 +1,55 @@
+The Group!
+==========
+
+Computing
+---------
+
+Local  machines
+***************
+
+There is a document with account information including IP addresses. (For best-practices reasons, this information is not in a sharable resource.) The document is in the  Google Drive `AllardLab/Machines <https://docs.google.com/document/d/1ho9787a8moJnIGWKQ-Hhd4Y1RN8-LL6XTaykcVSYrhc/edit?usp=sharing>`_.
+
+All of our local lab machines (iMacs, Linux boxes) should have a standardized administrative account and standardized password. All of you should not use this for any actual work. Instead, you each have a user account on your primary machine. Sometimes we ask each other for access to each other's primary machines, for access to files or computing power. If so, make your own account.
+
+..
+  <!-- TODO ips etc-->
+
+High-performance computing: hpc3
+********************************
+
+The Allard Lab is allocated a certain number of computing hours on UCI's shared high-performance computing facility, `Google Drive AllardLab/Machines <https://docs.google.com/document/d/1ho9787a8moJnIGWKQ-Hhd4Y1RN8-LL6XTaykcVSYrhc/edit?usp=sharing>`_., under :code:`jallard_lab`.
+
+Our rough guideline is that, if you are using *>1000 core-hour equivalents / week*, we need to make a [budget, e.g., using Google Sheet `example <https://docs.google.com/spreadsheets/d/1ak1teehkJODr_7bZb_bpxsQ6VofofcTX6nA1pTwIEq0/edit#gid=1695749378>`_. If you are doing exploratory stuff, try to keep the jobs <1000 core-hours/week. If you need help being clever about how to do more with less, let me know!
+
+
+AllardLab G Drive
+-----------------
+
+There is a shared Google Drive at AllardLab that can be used for file storage. Each of you can make a dedicated folder under LabMembers, and every project can have a dedicated folder in Projects. Some things, like code, belong in a git repository. Some things, like gigabyte data, belong on one of our external drives in RH274 instead.
+
+Should we make a group Discord?
+
+Resources
+---------
+
+
+What shared resources should we develop? What outside experts should we call in for this?
+
+- hpc3 documentation TODO LInk to the one we made!
+
+- Adobe Illustrator
+
+Within-team wisdom-sharing has been the single biggest superpower of the Allard Lab. It leads to exponential improvement, like compound interest. How do we maintain that in an asynchronous world? A remote world? My worst concern is that the advantages of asynchronous Work From Home are *multiplicative*, while the advantages of synchronous, in-person work are *exponential* (because they compound). If true, at first it seems like WFH is better, but you pay the price later.
+
+
+Rowland 274
+-----------
+  - The printer
+  - The coffee maker
+  - What else should we do?
+  - How do we maximally exploit RH274 in the post-covid era?
+
+Activity
+--------
+
+Should we do a weekly Starbucks/Peet's coffee break?
