@@ -61,7 +61,7 @@
 
 
 \title{The Allard Lab Manual}
-\date{Apr 04, 2022}
+\date{Apr 07, 2022}
 \release{}
 \author{Jun}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -77,6 +77,11 @@
 \phantomsection\label{\detokenize{index::doc}}
 
 
+\sphinxAtStartPar
+This is a work in progress.
+The source file is on github at \sphinxhref{github.com/allardlab/AllardLabManual}{our allardlab repo}.
+There is also a \sphinxhref{https://github.com/allardlab/AllardLabManual/raw/main/build/latex/theallardlabmanual.pdf}{compiled latex version}.
+
 
 \chapter{Mission statement}
 \label{\detokenize{01OurMission:mission-statement}}\label{\detokenize{01OurMission::doc}}
@@ -90,7 +95,7 @@ Virtue: When we peer\sphinxhyphen{}review, we are constructive and we try to mak
 For me (Jun), peer\sphinxhyphen{}reviewing is the scientist’s version of a musician practicing scales. This is the action that makes me improve the most. It hones the skill of analyzing the technical approach, recognizing a gap, judging and improving rigor, and evaluating impact.
 
 \sphinxAtStartPar
-After a Nature \sphinxhref{https://www.nature.com/articles/d41586-019-01533-8}{editorial} came out on the role of trainees in peer review, we adopt the “Bovyn rule”: The difference between training and non\sphinxhyphen{}training is whether we meet to discuss the paper.
+After a Nature \sphinxhref{https://www.nature.com/articles/d41586-019-01533-8}{editorial} came out on the role of trainees in peer review, we adopt the “Bovyn rule”: We always have a synchronous meeting to discuss the manuscript (not just asynchronous discussion).
 
 
 \section{The mission of our research group}
@@ -248,6 +253,36 @@ Omer’s 4 key questions to answer in a cover letter: (1) How will this work mak
 
 \sphinxAtStartPar
 Now relax. Measured in “wall clock” time, you might be halfway. The next step requires a stomach: {\hyperref[\detokenize{OldEmails:receiving-reviews}]{\sphinxcrossref{\DUrole{std,std-ref}{receiving peer review}}}}.
+
+
+\subsection{Jun’s Revision process}
+\label{\detokenize{PaperWritingTips:jun-s-revision-process}}
+\sphinxAtStartPar
+My workflow for resubmissions is as follows. It’s kind of cumbersome but I find it works.
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+I give every Reviewer comment a code, like “Rev1Minor3”.
+
+\item {} 
+\sphinxAtStartPar
+I create THREE google docs in \sphinxhref{https://drive.google.com/drive/u/0/folders/1Fnvh7tMW2qKfAqGih7cZQu2FYQpl11KP}{a folder here}.
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://docs.google.com/document/d/1zdCiVCJsp\_Lre1qBHlYqLhaWmsT9mRdUEwPqgVDR06M/edit?usp=sharing}{A Big Notes doc}, with the Reviewer comments, todo lists / Action Items, paragraph drafts for the response letter, paragraph drafts for the new manuscript, and other notes.
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://docs.google.com/document/d/1hJF-WhjId5Jq-zjtKajfnrgNW0tzaovpl3gdHIQdzQA/edit?usp=sharing}{A “Dashboard” doc}, with very short summary of each comment, so we can check them off as we go \textendash{} like a progress dashboard.
+
+\item {} 
+\sphinxAtStartPar
+Another doc for the actual \sphinxhref{https://docs.google.com/document/d/1ap\_7f1qu0ZUwOYDTvV-qGcEqiTH\_IX9LgTKLFlV54hU/edit?usp=sharing}{careful response letter}. This is mostly blank for now, but then can be made quickly following cut\sphinxhyphen{}and\sphinxhyphen{}paste from Big Notes, and then edited carefully, especially for tone, which is easy to get wrong.
+
+\end{itemize}
+
+\end{itemize}
 
 
 \subsection{Writing tips}
@@ -457,8 +492,6 @@ This allows you to use a small\sphinxhyphen{}batch, beginning\sphinxhyphen{}to\s
 \item {} 
 \sphinxAtStartPar
 A project workflow file with functions, scripts, input and output. The program VSCode with draw.io plugin is excellent for this. \sphinxhref{https://dev.to/hediet/create-diagrams-in-vs-code-with-draw-io-32pd}{“Diagrams are a great way to communicate ideas visually and can be used to extend or sometimes even replace textual documentations of software projects.”}, \sphinxhref{https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio}{Draw.io VS Code Integration}.
-
-\end{itemize}
 \begin{itemize}
 \item {} 
 \sphinxAtStartPar
@@ -467,6 +500,8 @@ Project \sphinxcode{\sphinxupquote{workflow}} from Lewis et al 2014
 \item {} 
 \sphinxAtStartPar
 Project \sphinxcode{\sphinxupquote{workflow}} from Clemens et al 2021
+
+\end{itemize}
 
 \end{itemize}
 
@@ -776,7 +811,7 @@ In the \sphinxhref{https://hbr.org/resources/images/article\_assets/2020/10/R200
 \subsection{Local  machines}
 \label{\detokenize{05Group:local-machines}}
 \sphinxAtStartPar
-There is a document with account information including IP addresses. (For best\sphinxhyphen{}practices reasons, this information is not in a sharable resource.) The document is in the  Google Drive AllardLab/Machines.
+There is a document with account information including IP addresses. (For best\sphinxhyphen{}practices reasons, this information is not in a sharable resource.) The document is in the  Google Drive \sphinxhref{https://docs.google.com/document/d/1ho9787a8moJnIGWKQ-Hhd4Y1RN8-LL6XTaykcVSYrhc/edit?usp=sharing}{AllardLab/Machines}.
 
 \sphinxAtStartPar
 All of our local lab machines (iMacs, Linux boxes) should have a standardized administrative account and standardized password. All of you should not use this for any actual work. Instead, you each have a user account on your primary machine. Sometimes we ask each other for access to each other’s primary machines, for access to files or computing power. If so, make your own account.
@@ -785,7 +820,7 @@ All of our local lab machines (iMacs, Linux boxes) should have a standardized ad
 \subsection{High\sphinxhyphen{}performance computing: hpc3}
 \label{\detokenize{05Group:high-performance-computing-hpc3}}
 \sphinxAtStartPar
-The Allard Lab is allocated a certain number of computing hours on UCI’s shared high\sphinxhyphen{}performance computing facility, {[}hpc3{]}(hpc2.rcic.uci.edu), under \sphinxtitleref{jallard\_lab}.
+The Allard Lab is allocated a certain number of computing hours on UCI’s shared high\sphinxhyphen{}performance computing facility, \sphinxhref{https://docs.google.com/document/d/1ho9787a8moJnIGWKQ-Hhd4Y1RN8-LL6XTaykcVSYrhc/edit?usp=sharing}{Google Drive AllardLab/Machines}., under \sphinxcode{\sphinxupquote{jallard\_lab}}.
 
 \sphinxAtStartPar
 Our rough guideline is that, if you are using \sphinxstyleemphasis{\textgreater{}1000 core\sphinxhyphen{}hour equivalents / week}, we need to make a {[}budget, e.g., using Google Sheet \sphinxhref{https://docs.google.com/spreadsheets/d/1ak1teehkJODr\_7bZb\_bpxsQ6VofofcTX6nA1pTwIEq0/edit\#gid=1695749378}{example}. If you are doing exploratory stuff, try to keep the jobs \textless{}1000 core\sphinxhyphen{}hours/week. If you need help being clever about how to do more with less, let me know!
@@ -807,11 +842,11 @@ What shared resources should we develop? What outside experts should we call in 
 \begin{itemize}
 \item {} 
 \sphinxAtStartPar
-hpc3 documentation TODO LInk to the one we made!
+hpc3 tips (Private link, see Jun and Read Lab)
 
 \item {} 
 \sphinxAtStartPar
-Adobe Illustrator
+\sphinxhref{https://docs.google.com/document/d/1EYdjaOwpue67TTzuhmREVdxPPGHpJ3MLh0YmSg1zFJg/edit?usp=sharing}{Adobe Illustrator}
 
 \end{itemize}
 
