@@ -3,8 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-This is the Allard Lab manual. Welcome!
+Welcome to the Allard Lab Manual!
 ===========================================
+
+This is a work in progress.
+The source file is on github at `our allardlab repo <github.com/allardlab/AllardLabManual>`_.
+There is also a `compiled latex version <https://github.com/allardlab/AllardLabManual/raw/main/build/latex/theallardlabmanual.pdf>`_.
+
 
 .. toctree::
    :maxdepth: 3

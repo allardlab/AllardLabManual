@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.9)  4 APR 2022 21:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.9)  7 APR 2022 08:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -774,85 +774,86 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write6
 \openout6 = `theallardlabmanual.toc'.
 
- [2]
-Chapter 1.
-LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 1
-10.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
-File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
-) [1
+ [2] [1
 
-
-] [2]
-Chapter 2.
-[3
+] [2
 
 ]
+Chapter 1.
+LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 1
+15.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
+File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
+) [3] [4]
+Chapter 2.
+[5
+
+] [6]
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 3
-31.
+66.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
-) [4]
-<figGapApproach.pdf, id=257, 241.84352pt x 183.2446pt>
+)
+<figGapApproach.pdf, id=275, 241.84352pt x 183.2446pt>
 File: figGapApproach.pdf Graphic file (type pdf)
 <use figGapApproach.pdf>
-Package pdftex.def Info: figGapApproach.pdf  used on input line 355.
+Package pdftex.def Info: figGapApproach.pdf  used on input line 390.
 (pdftex.def)             Requested size: 301.12305pt x 228.18839pt.
 
 
 pdfTeX warning: pdflatex (file ./fig3way.pdf): PDF inclusion: found PDF version
  <1.6>, but at most version <1.5> allowed
-<fig3way.pdf, id=258, 401.5pt x 221.3359pt>
+<fig3way.pdf, id=276, 401.5pt x 221.3359pt>
 File: fig3way.pdf Graphic file (type pdf)
 <use fig3way.pdf>
-Package pdftex.def Info: fig3way.pdf  used on input line 369.
+Package pdftex.def Info: fig3way.pdf  used on input line 404.
 (pdftex.def)             Requested size: 301.12305pt x 166.01164pt.
-[5 <./figGapApproach.pdf> <./fig3way.pdf>] [6]
+[7 <./figGapApproach.pdf>] [8 <./fig3way.pdf>]
 Chapter 3.
-<figProjectWorkflow_BiomimeticActinDroplets.pdf, id=334, 1132.80208pt x 393.804
+<figProjectWorkflow_BiomimeticActinDroplets.pdf, id=353, 1132.80208pt x 393.804
 26pt>
 File: figProjectWorkflow_BiomimeticActinDroplets.pdf Graphic file (type pdf)
 <use figProjectWorkflow_BiomimeticActinDroplets.pdf>
 Package pdftex.def Info: figProjectWorkflow_BiomimeticActinDroplets.pdf  used o
-n input line 473.
+n input line 508.
 (pdftex.def)             Requested size: 451.68457pt x 157.02016pt.
-[7
+[9
 
-] [8 <./figProjectWorkflow_BiomimeticActinDroplets.pdf>]
+] [10 <./figProjectWorkflow_BiomimeticActinDroplets.pdf>]
 Chapter 4.
-<figTimeline.pdf, id=377, 406.67233pt x 145.00172pt>
+<figTimeline.pdf, id=397, 406.67233pt x 145.00172pt>
 File: figTimeline.pdf Graphic file (type pdf)
 <use figTimeline.pdf>
-Package pdftex.def Info: figTimeline.pdf  used on input line 640.
+Package pdftex.def Info: figTimeline.pdf  used on input line 675.
 (pdftex.def)             Requested size: 451.68457pt x 161.05557pt.
-[9
+[11
 
 ]
 
 pdfTeX warning: pdflatex (file ./figExamTimeline.pdf): PDF inclusion: found PDF
  version <1.6>, but at most version <1.5> allowed
-<figExamTimeline.pdf, id=383, 401.5pt x 374.62059pt>
+<figExamTimeline.pdf, id=402, 401.5pt x 374.62059pt>
 File: figExamTimeline.pdf Graphic file (type pdf)
 <use figExamTimeline.pdf>
-Package pdftex.def Info: figExamTimeline.pdf  used on input line 697.
+Package pdftex.def Info: figExamTimeline.pdf  used on input line 732.
 (pdftex.def)             Requested size: 451.68457pt x 421.4757pt.
-[10 <./figTimeline.pdf>] [11 <./figExamTimeline.pdf>] [12]
+[12 <./figTimeline.pdf>] [13 <./figExamTimeline.pdf>] [14]
 Chapter 5.
-[13
-
-] [14]
-Chapter 6.
 [15
 
-] (./theallardlabmanual.ind) [16] (./theallardlabmanual.aux)
+] [16]
+Chapter 6.
+[17
+
+] (./theallardlabmanual.ind) [18] (./theallardlabmanual.aux)
 Package rerunfilecheck Info: File `theallardlabmanual.out' has not changed.
-(rerunfilecheck)             Checksum: F121FE1C65B4297EFC623B555DDC8813;6890.
+(rerunfilecheck)             Checksum: 6B4438AE4D0A40308095D8F584F55D86;7071.
  ) 
 Here is how much of TeX's memory you used:
- 13648 strings out of 478994
- 199690 string characters out of 5858184
- 543315 words of memory out of 5000000
- 30673 multiletter control sequences out of 15000+600000
+ 13653 strings out of 478994
+ 199779 string characters out of 5858184
+ 543378 words of memory out of 5000000
+ 30675 multiletter control sequences out of 15000+600000
  453665 words of font info for 65 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  83i,12n,88p,853b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -863,10 +864,10 @@ live/2021/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2
 xmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2021/texmf-di
 st/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2021/texmf-dist/fo
 nts/type1/public/txfonts/t1xtt.pfb>
-Output written on theallardlabmanual.pdf (20 pages, 1606981 bytes).
+Output written on theallardlabmanual.pdf (22 pages, 1609210 bytes).
 PDF statistics:
- 535 PDF objects out of 1000 (max. 8388607)
- 428 compressed objects within 5 object streams
- 96 named destinations out of 1000 (max. 500000)
- 350 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 558 PDF objects out of 1000 (max. 8388607)
+ 449 compressed objects within 5 object streams
+ 99 named destinations out of 1000 (max. 500000)
+ 358 words of extra memory for PDF output out of 10000 (max. 10000000)
 
