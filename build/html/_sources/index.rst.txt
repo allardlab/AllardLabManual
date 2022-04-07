@@ -6,8 +6,9 @@
 Welcome to the Allard Lab Manual!
 ===========================================
 
-This is a work in progress.
-The source file is on github at `our allardlab repo <github.com/allardlab/AllardLabManual>`_.
+This is a continuing work in progress. 
+The source file is on github at `our allardlab repo <https://github.com/allardlab/AllardLabManual>`_.
+You are welcome to fork and pull-request improvements.
 There is also a `compiled latex version <https://github.com/allardlab/AllardLabManual/raw/main/build/latex/theallardlabmanual.pdf>`_.
 
 
