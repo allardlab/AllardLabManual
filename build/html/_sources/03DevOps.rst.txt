@@ -11,13 +11,17 @@ Upshot
 
 In order to...
 
-- ...make our contributions make other people's science better (within and other labs)
+- ...make our contributions make other people's science better (within our group, and other labs)
 - ...keep our own peace of mind!
+- ...foster healthy, fun and productive collaborations
 - ...maximize our own efficiency
 
 version-control can be used smoothly for entire projects (analysis and write-ups, not just code).
 
-This allows you to use a small-batch, beginning-to-end, continuous-improvement “DevOps” approach -- which has pros and cons.
+This allows you to use a small-batch, beginning-to-end, continuous-improvement “DevOps” approach (also known as "first, build a bike"). This approach has pros and cons. 
+
+.. image:: figDevOps.*
+   :width: 600px
 
 
 Internal resources for DevOps performance
@@ -50,11 +54,12 @@ Here are some rough guideline
     - Comment at the top that says what the script tries to achieve
 - When you have a presentable figure
     - git and version control
-    - Design a single source of truth. Design so you don't need to type in the same information twice, unless there is a test that shows an error if they mismatch.
+    - Design a single source of truth, within a scripts. i.e., design so you don't need to type in the same information twice, unless there is a test that shows an error if they mismatch.
 - Past the `Norris limit <https://www.johndcook.com/blog/2011/11/22/norris-number/>`_ of around 1500 lines 
     - The Norris limis is rough amount of code an untrained programmer can write before the code becomes so tangled that the author cannot debug or modify it without herculean effort.
     - Dedicated /doc directory
     - 10-20% of time "refactoring" (improving the code even if it's working fine as is). An expression from software engineering is "technical debt", the amount of disorganized clutter that slows future progress. How much time should you spend paying down technical debt (re-organizing your notes and directory structure, taking notes) versus producing results? This is called "refactoring". 
-- Once the first draft paper outline has crystalized
+- Once the first draft project outline has crystalized (you know the question/gap and approach, and know the figures to generate)
+    - Design a single source of truth, within the workflow. 
     - :file:`Quickstart.md` to do the simplest complete figure generation (generate data and plot it, e.g., in Matlab)
-    - Project workflow using draw.io or similar
+    - Project workflow diagram using draw.io or similar

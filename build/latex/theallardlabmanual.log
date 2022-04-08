@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.9)  7 APR 2022 09:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.9)  8 APR 2022 06:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -810,50 +810,70 @@ Package pdftex.def Info: fig3way.pdf  used on input line 405.
 (pdftex.def)             Requested size: 301.12305pt x 166.01164pt.
 [7 <./figGapApproach.pdf>] [8 <./fig3way.pdf>]
 Chapter 3.
-<figProjectWorkflow_BiomimeticActinDroplets.pdf, id=353, 1132.80208pt x 393.804
+
+
+pdfTeX warning: pdflatex (file ./figDevOps.pdf): PDF inclusion: found PDF versi
+on <1.6>, but at most version <1.5> allowed
+<figDevOps.pdf, id=351, 401.5pt x 232.32095pt>
+File: figDevOps.pdf Graphic file (type pdf)
+<use figDevOps.pdf>
+Package pdftex.def Info: figDevOps.pdf  used on input line 494.
+(pdftex.def)             Requested size: 451.68457pt x 261.37814pt.
+[9
+
+]
+<figProjectWorkflow_BiomimeticActinDroplets.pdf, id=359, 1132.80208pt x 393.804
 26pt>
 File: figProjectWorkflow_BiomimeticActinDroplets.pdf Graphic file (type pdf)
 <use figProjectWorkflow_BiomimeticActinDroplets.pdf>
 Package pdftex.def Info: figProjectWorkflow_BiomimeticActinDroplets.pdf  used o
-n input line 509.
+n input line 515.
 (pdftex.def)             Requested size: 451.68457pt x 157.02016pt.
-[9
+ [10 <./figDevOps.pdf> <./figProjectWorkflow_BiomimeticActinDroplets.pdf>]
+Overfull \hbox (99.45503pt too wide) in paragraph at lines 585--585
+[]
+ []
 
-] [10 <./figProjectWorkflow_BiomimeticActinDroplets.pdf>]
-Chapter 4.
-<figTimeline.pdf, id=397, 406.67233pt x 145.00172pt>
-File: figTimeline.pdf Graphic file (type pdf)
-<use figTimeline.pdf>
-Package pdftex.def Info: figTimeline.pdf  used on input line 676.
-(pdftex.def)             Requested size: 451.68457pt x 161.05557pt.
-[11
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--585
+
+ []
+
+[11] [12
 
 ]
+Chapter 4.
+<figTimeline.pdf, id=524, 406.67233pt x 145.00172pt>
+File: figTimeline.pdf Graphic file (type pdf)
+<use figTimeline.pdf>
+Package pdftex.def Info: figTimeline.pdf  used on input line 686.
+(pdftex.def)             Requested size: 451.68457pt x 161.05557pt.
+[13]
 
 pdfTeX warning: pdflatex (file ./figExamTimeline.pdf): PDF inclusion: found PDF
  version <1.6>, but at most version <1.5> allowed
-<figExamTimeline.pdf, id=402, 401.5pt x 374.62059pt>
+<figExamTimeline.pdf, id=529, 401.5pt x 374.62059pt>
 File: figExamTimeline.pdf Graphic file (type pdf)
 <use figExamTimeline.pdf>
-Package pdftex.def Info: figExamTimeline.pdf  used on input line 733.
+Package pdftex.def Info: figExamTimeline.pdf  used on input line 743.
 (pdftex.def)             Requested size: 451.68457pt x 421.4757pt.
-[12 <./figTimeline.pdf>] [13 <./figExamTimeline.pdf>] [14]
+[14 <./figTimeline.pdf>] [15 <./figExamTimeline.pdf>] [16]
 Chapter 5.
-[15
-
-] [16]
-Chapter 6.
 [17
 
-] (./theallardlabmanual.ind) [18] (./theallardlabmanual.aux)
+] [18]
+Chapter 6.
+[19
+
+] (./theallardlabmanual.ind) [20] (./theallardlabmanual.aux)
 Package rerunfilecheck Info: File `theallardlabmanual.out' has not changed.
 (rerunfilecheck)             Checksum: 6B4438AE4D0A40308095D8F584F55D86;7071.
  ) 
 Here is how much of TeX's memory you used:
- 13653 strings out of 478994
- 199779 string characters out of 5858184
- 543378 words of memory out of 5000000
- 30675 multiletter control sequences out of 15000+600000
+ 13661 strings out of 478994
+ 199914 string characters out of 5858184
+ 543379 words of memory out of 5000000
+ 30680 multiletter control sequences out of 15000+600000
  453665 words of font info for 65 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  83i,12n,88p,853b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -864,10 +884,10 @@ live/2021/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2
 xmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2021/texmf-di
 st/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2021/texmf-dist/fo
 nts/type1/public/txfonts/t1xtt.pfb>
-Output written on theallardlabmanual.pdf (22 pages, 1609283 bytes).
+Output written on theallardlabmanual.pdf (24 pages, 2525401 bytes).
 PDF statistics:
- 558 PDF objects out of 1000 (max. 8388607)
- 449 compressed objects within 5 object streams
- 99 named destinations out of 1000 (max. 500000)
- 358 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 685 PDF objects out of 1000 (max. 8388607)
+ 516 compressed objects within 6 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 363 words of extra memory for PDF output out of 10000 (max. 10000000)
 

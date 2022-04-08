@@ -20,8 +20,7 @@ We spend a lot of time on communication, optimizing presentations, poster, paper
 The elements  
 ------------
 
-There is a standard layout -- the time-tested most valuable layout -- for a  scientific contribution that always works particularly well. 
-
+There is a standard layout -- the time-tested most powerful layout -- for a  scientific contribution that works particularly well. 
 
 - Big question/background
 - Specific question/hypothesis -- what you will deliver in this work
