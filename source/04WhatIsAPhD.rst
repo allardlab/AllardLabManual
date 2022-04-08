@@ -86,7 +86,7 @@ How to pick a committee and schedule the exam: Pick a 1-2-week interval, and mak
 Quarter reports
 ***************
 
-It's *so* easy to get lost in details and short-term milestones, so we put this in place to force ourselves out of the "urgent-vs-important" trap.
+It's easy to get lost in details and short-term milestones, forgetting about the big picture, so we put this in place to force ourselves out of the "urgent-vs-important" trap.
 The quarter report is an opportunity to think about the big picture.
 This is a short summary of what you've done and are planning to do.
 It can be as short as 7 sentences, but can be longer.
