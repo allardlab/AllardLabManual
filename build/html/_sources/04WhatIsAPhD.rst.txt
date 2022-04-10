@@ -5,6 +5,8 @@ What is a PhD?
 ..
   <!--## TODO The "expired gym membership" analogy-->
 
+* Wang Nature `"Owning, not doing: my transition from master's to PhD student" <https://www.nature.com/articles/d41586-022-00135-1>`_ 2022. Excellent, powerful. Only adjustment I would make is to replace words like "always" and "all" to "almost always" and "almost all".
+
 * Fleming `"Top tips for avoiding last-minute disasters and filing your thesis on time"  Nature 2018 <https://www.nature.com/articles/d41586-019-03020-6>`_
 
 * Taylor `"Twenty things I wish I'd known when I started my PhD,  Nature 2018 <https://www.nature.com/articles/d41586-018-07332-x>`_. I agree with all of these.

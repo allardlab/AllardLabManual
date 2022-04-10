@@ -2,7 +2,7 @@
 \contentsline {chapter}{\numberline {1}Mission statement}{3}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Peer reviewing}{3}{section.1.1}%
 \contentsline {section}{\numberline {1.2}The mission of our research group}{3}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Value\sphinxhyphen {}virtue pairs}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.3}Value\sphinxhyphen {}virtue pairs}{4}{section.1.3}%
 \contentsline {chapter}{\numberline {2}Elements of a scientific contribution}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Jun’s paper writing tips and trick}{5}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}How I write papers}{5}{subsection.2.1.1}%
