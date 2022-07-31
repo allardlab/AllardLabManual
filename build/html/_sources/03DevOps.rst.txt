@@ -1,3 +1,6 @@
+.. _DevOps:
+
+
 Memorialization and the DevOps strategy
 =======================================
 
@@ -23,6 +26,7 @@ This allows you to use a small-batch, beginning-to-end, continuous-improvement â
 .. image:: figDevOps.*
    :width: 600px
 
+The biggest pro is that you have the option of hitting a deadline "Promise to ship, but don't promise the result" (to quote Seth Godin in the book "Shipping Creative Work"). 
 
 Internal resources for DevOps performance
 --------------------------------------------
@@ -38,6 +42,8 @@ Internal resources for DevOps performance
    :width: 600px
 
 * Start the latex doc early! Prototype latex doc that Jun uses personally in `this git repo <https://github.com/allardjun/JunsLatexRepository>`_. (This is good for Project Seeds, and papers. Probably not good for thesis.)
+
+* Example from the physics-based cell biology stochastic simulator ReaDDY of their `"source tree" <https://readdy.github.io/development.html>`_ and `code repo organization <https://github.com/readdy/readdy>`_
 
 When to go full-on DevOps, and when not to?
 -------------------------------------------
@@ -56,10 +62,11 @@ Here are some rough guideline
     - git and version control
     - Design a single source of truth, within a scripts. i.e., design so you don't need to type in the same information twice, unless there is a test that shows an error if they mismatch.
 - Past the `Norris limit <https://www.johndcook.com/blog/2011/11/22/norris-number/>`_ of around 1500 lines 
-    - The Norris limis is rough amount of code an untrained programmer can write before the code becomes so tangled that the author cannot debug or modify it without herculean effort.
+    - The Norris limit is rough amount of code an untrained programmer can write before the code becomes so tangled that the author cannot debug or modify it without herculean effort.
     - Dedicated /doc directory
     - 10-20% of time "refactoring" (improving the code even if it's working fine as is). An expression from software engineering is "technical debt", the amount of disorganized clutter that slows future progress. How much time should you spend paying down technical debt (re-organizing your notes and directory structure, taking notes) versus producing results? This is called "refactoring". 
 - Once the first draft project outline has crystalized (you know the question/gap and approach, and know the figures to generate)
     - Design a single source of truth, within the workflow. 
     - :file:`Quickstart.md` to do the simplest complete figure generation (generate data and plot it, e.g., in Matlab)
     - Project workflow diagram using draw.io or similar
+
