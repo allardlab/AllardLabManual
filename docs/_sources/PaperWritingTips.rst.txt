@@ -58,3 +58,8 @@ Writing tips
 
 * Savage and Yeh `"Novelist Cormac McCarthy's tips on how to write a great science paper <https://www.nature.com/articles/d41586-019-02918-5>`_, Nature 2019 I disagree with like half of these.
 
+* *cut cut cut cut* part ii: "On the other hand", "It is important to note", ... are usually meaningless clutter. (There are exceptions.)
+ 
+* Verlyn Klinkenborg `"Several Short Sentences About Writing" <https://sive.rs/book/ShortSentences>`_ 
+
+* The Ten Best Sentences I've read about grant writing by Jun :download:`Grant Writing sentences <https://drive.google.com/file/d/1hLZlfhDnKuQqocQGTx-vPiMLw1m7gnp4/view?usp=sharing>`.

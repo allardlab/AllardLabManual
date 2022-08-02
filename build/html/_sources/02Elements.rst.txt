@@ -70,7 +70,7 @@ There is a fuzzy, probabilistic minimal threshold for each of these.
 
 Above the threshold, there is a trade-off between them. Teams benefit from discussing this trade-off.
 
-Don't underestimate the value of speed. There are many exciting things you can get on board, but for which "The bus leaves at 9:00", meaning there is a specific point in time you need to hit a milestone. Don't fear these things. How do you meet deadlines in such a fuzzy, probabilistic endeavor? :ref:`Peer reviewing <DevOps>`.  
+Don't underestimate the value of speed. There are many exciting things you can get on board, but for which "The bus leaves at 9:00", meaning there is a specific point in time you need to hit a milestone. Don't fear these things. How do you meet deadlines in such a fuzzy, probabilistic endeavor? :ref:`DevOps <DevOps>`.  
 
 Figures!
 --------
