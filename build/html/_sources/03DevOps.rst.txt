@@ -28,6 +28,9 @@ This allows you to use a small-batch, beginning-to-end, continuous-improvement â
 
 The biggest pro is that you have the option of hitting a deadline "Promise to ship, but don't promise the result" (to quote Seth Godin in the book "Shipping Creative Work"). 
 
+.. image:: figDeadline.*
+   :width: 200px
+
 Internal resources for DevOps performance
 --------------------------------------------
 
@@ -63,7 +66,8 @@ Here are some rough guideline
     - Design a single source of truth, within a scripts. i.e., design so you don't need to type in the same information twice, unless there is a test that shows an error if they mismatch.
 - Past the `Norris limit <https://www.johndcook.com/blog/2011/11/22/norris-number/>`_ of around 1500 lines 
     - The Norris limit is rough amount of code an untrained programmer can write before the code becomes so tangled that the author cannot debug or modify it without herculean effort.
-    - Dedicated /doc directory
+    - Dedicated ``/doc`` directory
+    - Thoughtful tree (i.e., folder and subfolder) structure. There are `entire articles <https://hynek.me/articles/testing-packaging/>`_ written on whether to put source in a ``/src`` directory.
     - 10-20% of time "refactoring" (improving the code even if it's working fine as is). An expression from software engineering is "technical debt", the amount of disorganized clutter that slows future progress. How much time should you spend paying down technical debt (re-organizing your notes and directory structure, taking notes) versus producing results? This is called "refactoring". 
 - Once the first draft project outline has crystalized (you know the question/gap and approach, and know the figures to generate)
     - Design a single source of truth, within the workflow. 
