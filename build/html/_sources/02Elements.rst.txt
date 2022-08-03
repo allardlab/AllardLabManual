@@ -81,7 +81,18 @@ Upshot: You need the ability to make a figure that is publication grade, informa
 
 The "Masterful Inaction" principle: it's ok to make a quick figure, as long as you're doing it because you have the ability to make a publication-quality figure and have deliberately made the decision not to.
 
-Paper writing
--------------
+The under-rated power of writing
+--------------------------------
+
+The paper - meaning a 4-10 page document, written in full sentences, describing a gap in knowledge, a method, a result, and its impact - is a highly-rated and yet still under-rated mode of communication. Nothing compares.
+
+* Start the latex doc early! Prototype latex doc that Jun uses personally in `this git repo <https://github.com/allardjun/JunsLatexRepository>`_. (This is good for Project Seeds, and papers. Probably not good for thesis.)
+
+* A lot of writing will get thrown away as the project evolves. **Writing is never wasted.** 
+
+* "When people present an idea in slides, everyone says 'yaaa that's greaaaat'. But when you make them write it down in a 1-page proposal, suddenly the problems become clear, and the needed improvement becomes clear." - Qing Nie, paraphrased by Jun.  In many cases in our projects, we have a fantastic presentation (poster or slide deck) about a year before we have a great paper.
+
+* "The reason writing a good 4 page memo is harder than 'writing' a 20 page powerpoint is because the narrative structure of a good memo forces better thought and better understanding of what's more important than what, and how things are related."" Jeff Bezos, quoted in `"Write documentation first, then build" <https://reproof.app/blog/document-first-then-build>`_. Similar point made by economist and philanthropist Tyler Cowan in "`Against slide decks <https://marginalrevolution.com/marginalrevolution/2020/08/against-slide-decks.html>`_" (I'm not against slide decks though.)
+
 
 The :ref:`paper writing process <PaperWritingTips>`
