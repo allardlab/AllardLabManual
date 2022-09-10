@@ -61,7 +61,7 @@
 
 
 \title{The Allard Lab Manual}
-\date{Aug 03, 2022}
+\date{Sep 10, 2022}
 \release{}
 \author{Jun}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -437,7 +437,7 @@ Importance/impact of the result: This importance criteria is often the easiest t
 
 \item {} 
 \sphinxAtStartPar
-Rigor/completeness. How much did we explore all the “nooks and crannies”, eg parameter sweeps? How much did we reject alternative possibilities? How much did we test the tools?
+Rigor/completeness/quality. How much did we explore all the “nooks and crannies”, eg parameter sweeps? How much did we reject alternative possibilities? How much did we test the tools? Also in this category is the quality of presentation. How clear do the figures, text, code repositories, tables, communicate the result?
 
 \item {} 
 \sphinxAtStartPar
@@ -470,10 +470,82 @@ Upshot: You need the ability to make a figure that is publication grade, informa
 The “Masterful Inaction” principle: it’s ok to make a quick figure, as long as you’re doing it because you have the ability to make a publication\sphinxhyphen{}quality figure and have deliberately made the decision not to.
 
 
-\section{Paper writing}
-\label{\detokenize{02Elements:paper-writing}}
+\section{The under\sphinxhyphen{}rated power of writing}
+\label{\detokenize{02Elements:the-under-rated-power-of-writing}}
+\sphinxAtStartPar
+The paper \sphinxhyphen{} meaning a 4\sphinxhyphen{}10 page document, written in full sentences, describing a gap in knowledge, a method, a result, and its impact \sphinxhyphen{} is a highly\sphinxhyphen{}rated and yet still under\sphinxhyphen{}rated mode of communication. Nothing compares.
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+Start the latex doc early! Prototype latex doc that Jun uses personally in \sphinxhref{https://github.com/allardjun/JunsLatexRepository}{this git repo}. (This is good for Project Seeds, and papers. Probably not good for thesis.)
+
+\item {} 
+\sphinxAtStartPar
+A lot of writing will get thrown away as the project evolves. \sphinxstylestrong{Writing is never wasted.}
+
+\item {} 
+\sphinxAtStartPar
+“When people present an idea in slides, everyone says ‘yaaa that’s greaaaat’. But when you make them write it down in a 1\sphinxhyphen{}page proposal, suddenly the problems become clear, and the needed improvement becomes clear.” \sphinxhyphen{} Qing Nie, paraphrased by Jun.  In many cases in our projects, we have a fantastic presentation (poster or slide deck) about a year before we have a great paper.
+
+\item {} 
+\sphinxAtStartPar
+“The reason writing a good 4 page memo is harder than ‘writing’ a 20 page powerpoint is because the narrative structure of a good memo forces better thought and better understanding of what’s more important than what, and how things are related.”” Jeff Bezos, quoted in \sphinxhref{https://reproof.app/blog/document-first-then-build}{“Write documentation first, then build”}. Similar point made by economist and philanthropist Tyler Cowan in “\sphinxhref{https://marginalrevolution.com/marginalrevolution/2020/08/against-slide-decks.html}{Against slide decks}” (I’m not against slide decks though.)
+
+\end{itemize}
+
 \sphinxAtStartPar
 The {\hyperref[\detokenize{PaperWritingTips:paperwritingtips}]{\sphinxcrossref{\DUrole{std,std-ref}{paper writing process}}}}
+
+
+\section{Getting to scientific quality / rigor}
+\label{\detokenize{02Elements:getting-to-scientific-quality-rigor}}
+\sphinxAtStartPar
+The process of getting something to scientific standard quality involves many steps.
+Note many steps involve feedback to previous steps (e.g., in oral part you often realize you need a figure modification).
+So, in true {\hyperref[\detokenize{03DevOps:devops}]{\sphinxcrossref{\DUrole{std,std-ref}{DevOps}}}} philosophy, you should plan to revisit every step.
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+9: Wishlist of figure and key sentences. Statement of gap that is being filled; wishlist of figures etc that address it.
+
+\item {} 
+\sphinxAtStartPar
+8: Draft figures with preliminary computation/data
+
+\item {} 
+\sphinxAtStartPar
+7: Draft figures with publication\sphinxhyphen{}grade computation/data
+
+\item {} 
+\sphinxAtStartPar
+6: Abstract draft. Decision about whether to submit to the conference.
+
+\item {} 
+\sphinxAtStartPar
+5: Presentation\sphinxhyphen{}grade figures
+
+\item {} 
+\sphinxAtStartPar
+4: Poster first draft. (Jun requests that paragraphs copied in a separate document e.g., Google doc, for easier editing.)
+
+\item {} 
+\sphinxAtStartPar
+3: Oral part practice, 1\sphinxhyphen{}on\sphinxhyphen{}1. Not a time trial yet, mostly about content.
+
+\item {} 
+\sphinxAtStartPar
+2: Oral practice, with audience e.g. Allard Lab. Time trial.
+
+\item {} 
+\sphinxAtStartPar
+1: For posters, final version to printer. For talks, final time\sphinxhyphen{}trial practice 1\sphinxhyphen{}on\sphinxhyphen{}1.
+
+\end{itemize}
+
+\sphinxAtStartPar
+It’s a slog. Cycling through these steps get faster, and more independent. But the steps never go away.
+People embarking on their first forays into research take about 1 week per step. (“Are you kidding me, 9 weeks to make a damned poster?!”)
+A question for you to be always asking yourself: How do you get faster and more independent, as you mature scientifically?
 
 \sphinxstepscope
 
@@ -524,7 +596,7 @@ This allows you to use a small\sphinxhyphen{}batch, beginning\sphinxhyphen{}to\s
 \sphinxAtStartPar
 The biggest pro is that you have the option of hitting a deadline “Promise to ship, but don’t promise the result” (to quote Seth Godin in the book “Shipping Creative Work”).
 
-\noindent\sphinxincludegraphics[width=600\sphinxpxdimen]{{figDeadline}.pdf}
+\noindent\sphinxincludegraphics[width=200\sphinxpxdimen]{{figDeadline}.pdf}
 
 
 \section{Internal resources for DevOps performance}
@@ -608,11 +680,15 @@ The Norris limit is rough amount of code an untrained programmer can write befor
 
 \item {} 
 \sphinxAtStartPar
-Dedicated /doc directory
+Dedicated \sphinxcode{\sphinxupquote{/doc}} directory
 
 \item {} 
 \sphinxAtStartPar
-10\sphinxhyphen{}20\% of time “refactoring” (improving the code even if it’s working fine as is). An expression from software engineering is “technical debt”, the amount of disorganized clutter that slows future progress. How much time should you spend paying down technical debt (re\sphinxhyphen{}organizing your notes and directory structure, taking notes) versus producing results? This is called “refactoring”.
+Thoughtful tree (i.e., folder and subfolder) structure. There are \sphinxhref{https://hynek.me/articles/testing-packaging/}{entire articles} written on whether to put source in a \sphinxcode{\sphinxupquote{/src}} directory.
+
+\item {} 
+\sphinxAtStartPar
+10\sphinxhyphen{}20\% of time “refactoring” (improving the code even if it’s working fine as is). An expression from software engineering is “technical debt”, the amount of disorganized clutter that slows future progress. How much time should you spend paying down technical debt (re\sphinxhyphen{}organizing your notes and directory structure, taking notes) versus producing results? This is called “refactoring”. We debated this percent a lot and this is the range that emerged.
 
 \end{itemize}
 
@@ -991,10 +1067,14 @@ Under normal operations, the turnaround time for e\sphinxhyphen{}mails is within
 \sphinxAtStartPar
 \sphinxstylestrong{It is more important for me to know when you’re on reduced effort than that your effort be maximal.}
 
-\item {} 
-\sphinxAtStartPar
-I take working with collaborators seriously.  By far the most impactful stuff we do is collaborative, but collaboration means it’s not just about you. I take my role here seriously and expect you to as well.
+\end{enumerate}
 
+\sphinxAtStartPar
+5. I take working with collaborators seriously.  By far the most impactful stuff we do is collaborative, but collaboration means it’s not just about you. I take my role here seriously and expect you to as well.
+Working on a project with another lead (e.g., grad student or postdoc) changes everything, pressure is on. I take this seriously and you will also be expected to.
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\setcounter{enumi}{5}
 \item {} 
 \sphinxAtStartPar
 I take student privacy seriously, and I take openness with students seriously.

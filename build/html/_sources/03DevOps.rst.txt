@@ -68,7 +68,7 @@ Here are some rough guideline
     - The Norris limit is rough amount of code an untrained programmer can write before the code becomes so tangled that the author cannot debug or modify it without herculean effort.
     - Dedicated ``/doc`` directory
     - Thoughtful tree (i.e., folder and subfolder) structure. There are `entire articles <https://hynek.me/articles/testing-packaging/>`_ written on whether to put source in a ``/src`` directory.
-    - 10-20% of time "refactoring" (improving the code even if it's working fine as is). An expression from software engineering is "technical debt", the amount of disorganized clutter that slows future progress. How much time should you spend paying down technical debt (re-organizing your notes and directory structure, taking notes) versus producing results? This is called "refactoring". 
+    - 10-20% of time "refactoring" (improving the code even if it's working fine as is). An expression from software engineering is "technical debt", the amount of disorganized clutter that slows future progress. How much time should you spend paying down technical debt (re-organizing your notes and directory structure, taking notes) versus producing results? This is called "refactoring". We debated this percent a lot and this is the range that emerged.
 - Once the first draft project outline has crystalized (you know the question/gap and approach, and know the figures to generate)
     - Design a single source of truth, within the workflow. 
     - :file:`Quickstart.md` to do the simplest complete figure generation (generate data and plot it, e.g., in Matlab)
