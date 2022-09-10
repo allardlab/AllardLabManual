@@ -62,7 +62,7 @@ A useful coordinate system to "project" (verb) success as a project progresses:
 
 (1) Importance/impact of the result: This importance criteria is often the easiest to retreat on, because there is an attitude in the scientific community that scientists are bad at predicting future importance anyway.
 
-(2) Rigor/completeness. How much did we explore all the "nooks and crannies", eg parameter sweeps? How much did we reject alternative possibilities? How much did we test the tools?
+(2) Rigor/completeness/quality. How much did we explore all the "nooks and crannies", eg parameter sweeps? How much did we reject alternative possibilities? How much did we test the tools? Also in this category is the quality of presentation. How clear do the figures, text, code repositories, tables, communicate the result?
 
 (3) Efficiency/use of resources/speed: Are we going to get this paper done in time, so people can move on to even bigger and brighter things!
 
@@ -96,3 +96,25 @@ The paper - meaning a 4-10 page document, written in full sentences, describing 
 
 
 The :ref:`paper writing process <PaperWritingTips>`
+
+Getting to scientific quality / rigor
+-------------------------------------
+
+The process of getting something to scientific standard quality involves many steps. 
+Note many steps involve feedback to previous steps (e.g., in oral part you often realize you need a figure modification). 
+So, in true :ref:`DevOps <DevOps>` philosophy, you should plan to revisit every step. 
+
+- 9: Wishlist of figure and key sentences. Statement of gap that is being filled; wishlist of figures etc that address it.
+- 8: Draft figures with preliminary computation/data 
+- 7: Draft figures with publication-grade computation/data
+- 6: Abstract draft. Decision about whether to submit to the conference. 
+- 5: Presentation-grade figures
+- 4: Poster first draft. (Jun requests that paragraphs copied in a separate document e.g., Google doc, for easier editing.)
+- 3: Oral part practice, 1-on-1. Not a time trial yet, mostly about content.
+- 2: Oral practice, with audience e.g. Allard Lab. Time trial. 
+- 1: For posters, final version to printer. For talks, final time-trial practice 1-on-1. 
+
+It's a slog. Cycling through these steps get faster, and more independent. But the steps never go away. 
+People embarking on their first forays into research take about 1 week per step. ("Are you kidding me, 9 weeks to make a damned poster?!")
+A question for you to be always asking yourself: How do you get faster and more independent, as you mature scientifically?
+
