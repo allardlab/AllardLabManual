@@ -96,3 +96,28 @@ The paper - meaning a 4-10 page document, written in full sentences, describing 
 
 
 The :ref:`paper writing process <PaperWritingTips>`
+
+Getting to scientific quality / rigor
+-------------------------------------
+
+Note many steps involve feedback to previous steps (e.g., in oral part you often realize you need a figure modification). 
+So, in true :ref:`DevOps <DevOps>` philosophy, plan to revisit every step. 
+
+- 11: Wishlist of figure and key sentences. Statement of gap that is being filled; wishlist of figures etc that address it.
+- 10: Draft figures with preliminary computation/data 
+- 9: Draft figures with publication-grade computation/data
+- 8: Abstract draft. Decision about whether to submit to the conference. 
+- 7: Presentation-grade figures
+- 6: Poster first draft. (Jun requests that paragraphs copied in a separate document e.g., Google doc, for easier editing.)
+
+  * 5: poster draft 2nd round
+  * 4: poster draft 3rd round sometimes 
+
+- 3: Oral part practice, 1-on-1. Not a time trial yet, mostly about content.
+- 2: Oral practice, with audience e.g. Allard Lab. Time trial. 
+- 1: For posters, final version to printer. For talks, final time-trial practice 1-on-1. 
+
+It's a slog. Cycling through these steps get faster, and more independent. But the steps never go away. 
+Scientists venturing into their first forays into research take about 1 week per step. 
+A question for you: How do you get faster and more independent, as you mature scientifically?
+
