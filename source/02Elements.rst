@@ -107,14 +107,14 @@ We have a rigorous imposed timeline when getting ready to present a result to th
 The time it takes for each step get shorter with experience and trust with the collaborators and with me. 
 In general during a science project, I try to serve as an advisor rather than a gatekeeper, but in terms of communicating and exposing it to the world, here I invoke my prerogative to be more controlling, at least at first. 
 
-- 9: Wishlist of figure and key sentences. Statement of gap that is being filled; wishlist of figures etc that address it. Outline of **narrative**, i.e., **"key sentences"** "headlines"; first figures showing **result proof-of-concept.** Wishlist of needed figures etc. 
-- 8: Draft figures with preliminary computation/data and key sentences.  
-- 7: Draft figures with publication-grade computation/data and key sentences. Figures are understandable, rigorous. **This is the result-production cutoff date**. 
+- 9: Outline of **narrative**, i.e., "key sentences" "headlines"; Wishlist of figure and key sentences. Statement of gap that is being filled; wishlist of figures etc that address it. 
+- 8: Draft figures with preliminary computation/data and key sentences. This is the **proof-of-concept** point. 
+- 7: Draft figures with publication-grade computation/data and key sentences. Figures are understandable, rigorous. **This is the **result-production cutoff** date. 
 - 6: Abstract draft. Decision about whether to submit to the conference. Jun approves draft. Ok to make commitments, e.g., submit an abstract to BPS/ASCB/SIAM, to begin convening Committee for Advancement, ...
-- 5: Presentation-grade figures
-- 4: Slide/Poster first draft. Draft of intro, background, lit review. (For posters, Jun requests that paragraphs copied in a separate document e.g., Google doc, for easier editing.) Plan for around 2x rounds of back-and-forth with Jun, from the time the first complete draft. 
-- 3: Presentation run-through with Jun. No time-trial. See if everything hangs together. For talks: what slides are needed, how should they be designed? For posters: What's the layout?
-- 2: Oral practice, with audience e.g. Allard Lab. Time trial. 
+- 5: **Presentation-grade figures**
+- 3&4: Complete (begin to end) **slide/poster first draft**. Draft of intro, background, lit review. (For posters, Jun requests that paragraphs copied in a separate document e.g., Google doc, for easier editing.) Plan for around 1x-2x rounds of back-and-forth with Jun, from the time of this first complete draft. 
+- 3&4: Presentation **run-through with Jun**. No time-trial. See if everything hangs together. For talks: what slides are needed, how should they be designed? For posters: What's the layout?
+- 2: **Oral practice with audience** e.g. Allard Lab. Time trial. 
 - 1: Final time-trial practice 1-on-1.  For posters, final version to printer. Focus on oral (spoken words); when you're done the slides, you're half done, because the spoken words are half the experience. 
 
 It's a slog. Cycling through these steps get faster, and more independent. But the steps never go away. 
