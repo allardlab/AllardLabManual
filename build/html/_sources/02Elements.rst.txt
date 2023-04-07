@@ -109,7 +109,7 @@ In general during a science project, I try to serve as an advisor rather than a 
 
 - 9: Outline of **narrative**, i.e., "key sentences" "headlines"; Wishlist of figure and key sentences. Statement of gap that is being filled; wishlist of figures etc that address it. 
 - 8: Draft figures with preliminary computation/data and key sentences. This is the **proof-of-concept** point. 
-- 7: Draft figures with publication-grade computation/data and key sentences. Figures are understandable, rigorous. **This is the **result-production cutoff** date. 
+- 7: Draft figures with publication-grade computation/data and key sentences. Figures are understandable, rigorous. This is the **result-production cutoff** date. 
 - 6: Abstract draft. Decision about whether to submit to the conference. Jun approves draft. Ok to make commitments, e.g., submit an abstract to BPS/ASCB/SIAM, to begin convening Committee for Advancement, ...
 - 5: **Presentation-grade figures**
 - 3&4: Complete (begin to end) **slide/poster first draft**. Draft of intro, background, lit review. (For posters, Jun requests that paragraphs copied in a separate document e.g., Google doc, for easier editing.) Plan for around 1x-2x rounds of back-and-forth with Jun, from the time of this first complete draft. 

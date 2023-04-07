@@ -2,7 +2,7 @@ PWD /Users/jun/git/pub/AllardLabManual-1/build/latex
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/jun/git/pub/AllardLabManual-1/build/latex/theallardlabmanual.tex
+INPUT theallardlabmanual.tex
 OUTPUT theallardlabmanual.log
 INPUT ./sphinxmanual.cls
 INPUT ./sphinxmanual.cls
