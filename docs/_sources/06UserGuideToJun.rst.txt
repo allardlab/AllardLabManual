@@ -18,7 +18,8 @@ Working with Jun / "A user guide to Jun"
 
 4. **It is more important for me to know when you're on reduced effort than that your effort be maximal.**
 
-5. I take working with collaborators seriously.  By far the most impactful stuff we do is collaborative, but collaboration means it's not just about you. I take my role here seriously and expect you to as well.
+5. I take working with collaborators seriously.  By far the most impactful stuff we do is collaborative, but collaboration means it's not just about you. I take my role here seriously and expect you to as well. 
+Working on a project with another lead (e.g., grad student or postdoc) changes everything, pressure is on. I take this seriously and you will also be expected to. 
 
 6. I take student privacy seriously, and I take openness with students seriously.
 
