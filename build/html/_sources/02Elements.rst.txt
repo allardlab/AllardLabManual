@@ -103,18 +103,29 @@ Getting to scientific quality / rigor
 The process of getting something to scientific standard quality involves many steps. 
 Note many steps involve feedback to previous steps (e.g., in oral part you often realize you need a figure modification). 
 So, in true :ref:`DevOps <DevOps>` philosophy, you should plan to revisit every step. 
+We have a rigorous imposed timeline when getting ready to present a result to the outside world. 
+The time it takes for each step get shorter with experience and trust with the collaborators and with me. 
+In general during a science project, I try to serve as an advisor rather than a gatekeeper, but in terms of communicating and exposing it to the world, here I invoke my prerogative to be more controlling, at least at first. 
 
-- 9: Wishlist of figure and key sentences. Statement of gap that is being filled; wishlist of figures etc that address it.
-- 8: Draft figures with preliminary computation/data 
-- 7: Draft figures with publication-grade computation/data
-- 6: Abstract draft. Decision about whether to submit to the conference. 
+- 9: Wishlist of figure and key sentences. Statement of gap that is being filled; wishlist of figures etc that address it. Outline of **narrative**, i.e., **"key sentences"** "headlines"; first figures showing **result proof-of-concept.** Wishlist of needed figures etc. 
+- 8: Draft figures with preliminary computation/data and key sentences.  
+- 7: Draft figures with publication-grade computation/data and key sentences. Figures are understandable, rigorous. **This is the result-production cutoff date**. 
+- 6: Abstract draft. Decision about whether to submit to the conference. Jun approves draft. Ok to make commitments, e.g., submit an abstract to BPS/ASCB/SIAM, to begin convening Committee for Advancement, ...
 - 5: Presentation-grade figures
-- 4: Poster first draft. (Jun requests that paragraphs copied in a separate document e.g., Google doc, for easier editing.)
-- 3: Oral part practice, 1-on-1. Not a time trial yet, mostly about content.
+- 4: Slide/Poster first draft. Draft of intro, background, lit review. (For posters, Jun requests that paragraphs copied in a separate document e.g., Google doc, for easier editing.) Plan for around 2x rounds of back-and-forth with Jun, from the time the first complete draft. 
+- 3: Presentation run-through with Jun. No time-trial. See if everything hangs together. For talks: what slides are needed, how should they be designed? For posters: What's the layout?
 - 2: Oral practice, with audience e.g. Allard Lab. Time trial. 
-- 1: For posters, final version to printer. For talks, final time-trial practice 1-on-1. 
+- 1: Final time-trial practice 1-on-1.  For posters, final version to printer. Focus on oral (spoken words); when you're done the slides, you're half done, because the spoken words are half the experience. 
 
 It's a slog. Cycling through these steps get faster, and more independent. But the steps never go away. 
-People embarking on their first forays into research take about 1 week per step. ("Are you kidding me, 9 weeks to make a damned poster?!")
+People embarking on their first forays into research take about 1 week per step. ("Are you kidding me, 9 weeks to make a damned poster/talk?!")
 A question for you to be always asking yourself: How do you get faster and more independent, as you mature scientifically?
+When going through this for the first time, I insist on a number of weeks for each step. 
+As you become more experience and I get over my trust issues, the steps accelerate --in some cases a lot! (this acceleration is an honor for me to watch, and one of the single biggest joys in my professional life) -- but they sorta never go away. 
+
+
+
+
+
+
 

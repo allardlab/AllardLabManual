@@ -1064,27 +1064,12 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 OUTPUT theallardlabmanual.toc
-<<<<<<< Updated upstream
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/tex-gyre/ec-qtmri.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/tex-gyre/ec-qtmr.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/tex-gyre/ec-qhvr.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/t1txtt.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/t1txtt.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/t1txtt.fd
-INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/txfonts/t1txtt.fd
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/txfonts/t1xtt.tfm
-=======
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/tex-gyre/ec-qtmri.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/tex-gyre/ts1qtm.fd
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/tex-gyre/ec-qtmri.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/tex-gyre/ec-qtmr.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/tex-gyre/ec-qhvr.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/t1txtt.fd
@@ -1092,7 +1077,6 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/t1txtt.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/t1txtt.fd
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/txfonts/t1txtt.fd
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/txfonts/t1xtt.tfm
->>>>>>> Stashed changes
 INPUT ./figGapApproach.pdf
 INPUT ./figGapApproach.pdf
 INPUT figGapApproach.pdf
@@ -1163,20 +1147,10 @@ INPUT theallardlabmanual.ind
 INPUT theallardlabmanual.aux
 INPUT ./theallardlabmanual.out
 INPUT ./theallardlabmanual.out
-<<<<<<< Updated upstream
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb
-=======
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb
->>>>>>> Stashed changes
