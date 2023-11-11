@@ -82,7 +82,7 @@ The prototypic timeline
 .. image:: figExamTimeline.*
    :width: 600px
 
-How to pick a committee and schedule the exam: Pick a 1-2-week interval, and make a ranked list of potential committee members, then try to find a committee that fits into the time interval. This is much easier than setting a committee then finding a time.
+To schedule a meeting, see my old e-mail with :ref:`tips on scheduling meetings <scheduling>`.
 
 * Levine `"Doctor's advice" Nature 2016 <https://www.nature.com/articles/nj7603-429a>`_  on choosing a Committee
 
