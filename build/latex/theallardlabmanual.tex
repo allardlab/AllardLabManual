@@ -10,9 +10,6 @@
 %% let collapsible pdf bookmarks panel have high depth per default
 \PassOptionsToPackage{bookmarksdepth=5}{hyperref}
 
-\PassOptionsToPackage{booktabs}{sphinx}
-\PassOptionsToPackage{colorrows}{sphinx}
-
 \PassOptionsToPackage{warn}{textcomp}
 \usepackage[utf8]{inputenc}
 \ifdefined\DeclareUnicodeCharacter
@@ -64,18 +61,13 @@
 
 
 \title{The Allard Lab Manual}
-\date{Nov 11, 2023}
+\date{Jan 11, 2024}
 \release{}
 \author{Jun}
 \newcommand{\sphinxlogo}{\vbox{}}
 \renewcommand{\releasename}{}
 \makeindex
 \begin{document}
-
-\ifdefined\shorthandoff
-  \ifnum\catcode`\=\string=\active\shorthandoff{=}\fi
-  \ifnum\catcode`\"=\active\shorthandoff{"}\fi
-\fi
 
 \pagestyle{empty}
 \sphinxmaketitle
@@ -160,7 +152,7 @@ worldwide, multi\sphinxhyphen{}generational tapestry of scientific knowledge
 To achieve our mission, we adopt certain principles, or “virtues”. Every virtue comes from a value.
 \begin{itemize}
 \item {} \begin{description}
-\sphinxlineitem{Value: We try to make other people’s science better.}\begin{itemize}
+\item[{Value: We try to make other people’s science better.}] \leavevmode\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Virtue: Peer Reviewing See this {\hyperref[\detokenize{PeerReviewing:peer-reviewing}]{\sphinxcrossref{\DUrole{std,std-ref}{Peer reviewing}}}} section.
@@ -174,7 +166,7 @@ Virtue: We \sphinxstyleemphasis{memorialize} our own stuff, both for internal fu
 \end{description}
 
 \item {} \begin{description}
-\sphinxlineitem{Value: We value time, the most scarce and precious resource.}\begin{itemize}
+\item[{Value: We value time, the most scarce and precious resource.}] \leavevmode\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Virtue: Being on\sphinxhyphen{}time.
@@ -188,7 +180,7 @@ Jun’s Rule If Jun is late, Jun agrees to put \$1/min/attendee into an Allard L
 \end{description}
 
 \item {} \begin{description}
-\sphinxlineitem{Value: We make other people want to work with us.}\begin{itemize}
+\item[{Value: We make other people want to work with us.}] \leavevmode\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Virtue: Being a good listener, being excessively respectful of others. There are essential policies that have to do with respecting our colleagues, led by the wider scientific community, the UCI community, and our other affiliated communities. Besides meeting those standards, we try to go beyond them.
@@ -436,7 +428,7 @@ It’s ok to have one before you have the other (exploratory projects, “approa
 \sphinxAtStartPar
 A useful coordinate system to “project” (verb) success as a project progresses:
 
-\noindent\sphinxincludegraphics[width=400\sphinxpxdimen]{{fig3way}.pdf}
+\noindent\sphinxincludegraphics[width=400\sphinxpxdimen]{{fig3way_2}.pdf}
 \begin{enumerate}
 \sphinxsetlistlabels{\arabic}{enumi}{enumii}{(}{)}%
 \item {} 
@@ -658,7 +650,7 @@ Wilson et al, \sphinxhref{https://journals.plos.org/ploscompbiol/article?id=10.1
 Here are some rough guideline
 \begin{itemize}
 \item {} \begin{description}
-\sphinxlineitem{Even for the simplest code:}\begin{itemize}
+\item[{Even for the simplest code:}] \leavevmode\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Thoughtful variable names with consistent style (\sphinxcode{\sphinxupquote{camelCase}}, \sphinxcode{\sphinxupquote{snake\_style}}, etc)
@@ -672,7 +664,7 @@ Comment at the top that says what the script tries to achieve
 \end{description}
 
 \item {} \begin{description}
-\sphinxlineitem{When you have a presentable figure}\begin{itemize}
+\item[{When you have a presentable figure}] \leavevmode\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 git and version control
@@ -686,7 +678,7 @@ Design a single source of truth, within a scripts. i.e., design so you don’t n
 \end{description}
 
 \item {} \begin{description}
-\sphinxlineitem{Past the \sphinxhref{https://www.johndcook.com/blog/2011/11/22/norris-number/}{Norris limit} of around 1500 lines}\begin{itemize}
+\item[{Past the \sphinxhref{https://www.johndcook.com/blog/2011/11/22/norris-number/}{Norris limit} of around 1500 lines}] \leavevmode\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 The Norris limit is rough amount of code an untrained programmer can write before the code becomes so tangled that the author cannot debug or modify it without herculean effort.
@@ -708,7 +700,7 @@ Thoughtful tree (i.e., folder and subfolder) structure. There are \sphinxhref{ht
 \end{description}
 
 \item {} \begin{description}
-\sphinxlineitem{Once the first draft project outline has crystalized (you know the question/gap and approach, and know the figures to generate)}\begin{itemize}
+\item[{Once the first draft project outline has crystalized (you know the question/gap and approach, and know the figures to generate)}] \leavevmode\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Design a single source of truth, within the workflow.

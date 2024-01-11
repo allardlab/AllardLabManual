@@ -57,7 +57,7 @@ The importance rigor resources trade-off
 
 A useful coordinate system to "project" (verb) success as a project progresses:
 
-.. image:: fig3way.*
+.. image:: fig3way_2.*
    :width: 400px
 
 (1) Importance/impact of the result: This importance criteria is often the easiest to retreat on, because there is an attitude in the scientific community that scientists are bad at predicting future importance anyway.
