@@ -10,6 +10,6 @@ For me (Jun), peer-reviewing is the scientist's version of a musician practicing
 
 After a Nature `editorial <https://www.nature.com/articles/d41586-019-01533-8>`_ came out on the role of trainees in peer review, we adopt the "Bovyn rule": We always have a synchronous meeting to discuss the manuscript (not just asynchronous discussion).
 
-- Varma, `Peer Reviewing: Feeling like a real scientist <https://elifesciences.org/articles/77719>`_ eLife, 2022
+- Varma, `Peer Reviewing: Feeling like a real scientist <https://elifesciences.org/articles/77719>`_ eLife, 2024
 
 

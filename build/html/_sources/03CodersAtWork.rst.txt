@@ -1,11 +1,11 @@
-.. _DevOps:
+.. _CodersAtWork:
 
+
+Coders at Work
+==============
 
 Memorialization and the DevOps strategy
-=======================================
-
-DevOps for Systems Biologists
------------------------------
+---------------------------------------
 
 * What is "DevOps"? :download:`DevOps keynote slides </Content/Jun_DevOpsGit_FORALLARDGROUP.key>`.
 
@@ -31,7 +31,7 @@ The biggest pro is that you have the option of hitting a deadline "Promise to sh
 .. image:: figDeadline.*
    :width: 200px
 
-Internal resources for DevOps performance
+Internal resources for coder performance
 --------------------------------------------
 
 * A project workflow file with functions, scripts, input and output. The program VSCode with draw.io plugin is excellent for this. `"Diagrams are a great way to communicate ideas visually and can be used to extend or sometimes even replace textual documentations of software projects." <https://dev.to/hediet/create-diagrams-in-vs-code-with-draw-io-32pd>`_, `Draw.io VS Code Integration <https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio>`_.
@@ -73,4 +73,16 @@ Here are some rough guideline
     - Design a single source of truth, within the workflow. 
     - :file:`Quickstart.md` to do the simplest complete figure generation (generate data and plot it, e.g., in Matlab). This must work in someone else's hands, on someone else's machine. Therefore, you need large datasets ("artifacts") to be in a shared location, possibly outside of a git repo if they are large.
     - Project workflow diagram using draw.io or similar
+- How big should a file be? How big should a function be?
+   ..  - Files should fit on a screen within a few scrolls. So 3 screens-ish. Maybe there is an exception for "notebooks" (either literal or effective notebook-like scripts). __A method body that does not fit in one or two screens is too big (I assume that a screen / editor window is about 50 lines).__ — via [At what point/range is a code file too big? - Software Engineering Stack Exchange](https://softwareengineering.stackexchange.com/questions/176999/at-what-point-range-is-a-code-file-too-big) 
 
+    - Rough guideline: Nothing should nest more than 3 indents. That's a sign you need methods/functions.
+    - Rough guideline: If you're passing more than 7 arguments, you need a struct or alternative data structure. 
+    - When is your code readabile? `"Your peer tells you after reviewing the code. You cannot determine this yourself easily because as the author, you know more than the code says by itself. A computer cannot tell you, for the same reasons that it cannot tell if a painting is art or not. Hence, you need another human - capable of maintaining the software - to look at what you have written and give his or her opinion. The formal name of said process is peer review." - Software Engineering Stack Exchange" <https://softwareengineering.stackexchange.com/questions/141005/how-would-you-know-if-youve-written-readable-and-easily-maintainable-code/141010#141010)>`_
+
+
+
+Resources for coders at work
+
+* `The Missing Semester of Your CS Education <https://missing.csail.mit.edu/>`_
+  
