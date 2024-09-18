@@ -10,9 +10,6 @@
 %% let collapsible pdf bookmarks panel have high depth per default
 \PassOptionsToPackage{bookmarksdepth=5}{hyperref}
 
-\PassOptionsToPackage{booktabs}{sphinx}
-\PassOptionsToPackage{colorrows}{sphinx}
-
 \PassOptionsToPackage{warn}{textcomp}
 \usepackage[utf8]{inputenc}
 \ifdefined\DeclareUnicodeCharacter
@@ -72,11 +69,6 @@
 \makeindex
 \begin{document}
 
-\ifdefined\shorthandoff
-  \ifnum\catcode`\=\string=\active\shorthandoff{=}\fi
-  \ifnum\catcode`\"=\active\shorthandoff{"}\fi
-\fi
-
 \pagestyle{empty}
 \sphinxmaketitle
 \pagestyle{plain}
@@ -91,13 +83,9 @@ The source file is on github at \sphinxhref{https://github.com/allardlab/AllardL
 You are welcome to fork and pull\sphinxhyphen{}request improvements.
 There is also a \sphinxhref{https://github.com/allardlab/AllardLabManual/raw/main/build/latex/theallardlabmanual.pdf}{compiled latex version}.
 
-\sphinxstepscope
-
 
 \chapter{Mission statement}
 \label{\detokenize{01OurMission:mission-statement}}\label{\detokenize{01OurMission::doc}}
-\sphinxstepscope
-
 
 \section{Peer reviewing}
 \label{\detokenize{PeerReviewing:peer-reviewing}}\label{\detokenize{PeerReviewing:id1}}\label{\detokenize{PeerReviewing::doc}}
@@ -160,7 +148,7 @@ worldwide, multi\sphinxhyphen{}generational tapestry of scientific knowledge
 To achieve our mission, we adopt certain principles, or “virtues”. Every virtue comes from a value.
 \begin{itemize}
 \item {} \begin{description}
-\sphinxlineitem{Value: We try to make other people’s science better.}\begin{itemize}
+\item[{Value: We try to make other people’s science better.}] \leavevmode\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Virtue: Peer Reviewing See this {\hyperref[\detokenize{PeerReviewing:peer-reviewing}]{\sphinxcrossref{\DUrole{std,std-ref}{Peer reviewing}}}} section.
@@ -174,7 +162,7 @@ Virtue: We \sphinxstyleemphasis{memorialize} our own stuff, both for internal fu
 \end{description}
 
 \item {} \begin{description}
-\sphinxlineitem{Value: We value time, the most scarce and precious resource.}\begin{itemize}
+\item[{Value: We value time, the most scarce and precious resource.}] \leavevmode\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Virtue: Being on\sphinxhyphen{}time.
@@ -188,7 +176,7 @@ Jun’s Rule If Jun is late, Jun agrees to put \$1/min/attendee into an Allard L
 \end{description}
 
 \item {} \begin{description}
-\sphinxlineitem{Value: We make other people want to work with us.}\begin{itemize}
+\item[{Value: We make other people want to work with us.}] \leavevmode\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Virtue: Being a good listener, being excessively respectful of others. There are essential policies that have to do with respecting our colleagues, led by the wider scientific community, the UCI community, and our other affiliated communities. Besides meeting those standards, we try to go beyond them.
@@ -204,13 +192,9 @@ Value: We think our projects are cool, in addition to useful.
 
 \end{itemize}
 
-\sphinxstepscope
-
 
 \chapter{Elements of a scientific contribution}
 \label{\detokenize{02Elements:elements-of-a-scientific-contribution}}\label{\detokenize{02Elements::doc}}
-\sphinxstepscope
-
 
 \section{Jun’s paper writing tips and trick}
 \label{\detokenize{PaperWritingTips:jun-s-paper-writing-tips-and-trick}}\label{\detokenize{PaperWritingTips:paperwritingtips}}\label{\detokenize{PaperWritingTips::doc}}
@@ -597,8 +581,6 @@ A question for you to be always asking yourself: How do you get faster and more 
 When going through this for the first time, I insist on a number of weeks for each step.
 As you become more experience and I get over my trust issues, the steps accelerate \textendash{}in some cases a lot! (this acceleration is an honor for me to watch, and one of the single biggest joys in my professional life) \textendash{} but they sorta never go away.
 
-\sphinxstepscope
-
 
 \chapter{Coders at Work}
 \label{\detokenize{03CodersAtWork:coders-at-work}}\label{\detokenize{03CodersAtWork:codersatwork}}\label{\detokenize{03CodersAtWork::doc}}
@@ -695,7 +677,7 @@ Wilson et al, \sphinxhref{https://journals.plos.org/ploscompbiol/article?id=10.1
 Here are some rough guideline
 \begin{itemize}
 \item {} \begin{description}
-\sphinxlineitem{Even for the simplest code:}\begin{itemize}
+\item[{Even for the simplest code:}] \leavevmode\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Thoughtful variable names with consistent style (\sphinxcode{\sphinxupquote{camelCase}}, \sphinxcode{\sphinxupquote{snake\_style}}, etc)
@@ -709,7 +691,7 @@ Comment at the top that says what the script tries to achieve
 \end{description}
 
 \item {} \begin{description}
-\sphinxlineitem{When you have a presentable figure}\begin{itemize}
+\item[{When you have a presentable figure}] \leavevmode\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 git and version control
@@ -723,7 +705,7 @@ Design a single source of truth, within a scripts. i.e., design so you don’t n
 \end{description}
 
 \item {} \begin{description}
-\sphinxlineitem{Past the \sphinxhref{https://www.johndcook.com/blog/2011/11/22/norris-number/}{Norris limit} of around 1500 lines}\begin{itemize}
+\item[{Past the \sphinxhref{https://www.johndcook.com/blog/2011/11/22/norris-number/}{Norris limit} of around 1500 lines}] \leavevmode\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 The Norris limit is rough amount of code an untrained programmer can write before the code becomes so tangled that the author cannot debug or modify it without herculean effort.
@@ -745,7 +727,7 @@ Roughly 20\% of time “refactoring” (improving the code even if it’s workin
 \end{description}
 
 \item {} \begin{description}
-\sphinxlineitem{Once the first draft project outline has crystalized (you know the question/gap and approach, and know the figures to generate). This can be one hour a day, one day a week, or one week per month.}\begin{itemize}
+\item[{Once the first draft project outline has crystalized (you know the question/gap and approach, and know the figures to generate). This can be one hour a day, one day a week, or one week per month.}] \leavevmode\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Design a single source of truth, within the workflow.
@@ -763,7 +745,7 @@ Project workflow diagram using draw.io or similar
 \end{description}
 
 \item {} \begin{description}
-\sphinxlineitem{How big should a file be? How big should a function be?}
+\item[{How big should a file be? How big should a function be?}] \leavevmode
 \end{description}
 
 \end{itemize}
@@ -776,8 +758,6 @@ Resources for coders at work
 \sphinxhref{https://missing.csail.mit.edu/}{The Missing Semester of Your CS Education}
 
 \end{itemize}
-
-\sphinxstepscope
 
 
 \chapter{What is a PhD?}
@@ -1002,8 +982,6 @@ In the \sphinxhref{https://hbr.org/resources/images/article\_assets/2020/10/R200
 
 \end{enumerate}
 
-\sphinxstepscope
-
 
 \chapter{The Group!}
 \label{\detokenize{05Group:the-group}}\label{\detokenize{05Group::doc}}
@@ -1083,13 +1061,9 @@ How do we maximally exploit RH274 in the post\sphinxhyphen{}covid era?
 \sphinxAtStartPar
 Should we do a weekly Starbucks/Peet’s coffee break?
 
-\sphinxstepscope
-
 
 \chapter{Working with Jun / “A user guide to Jun”}
 \label{\detokenize{06UserGuideToJun:working-with-jun-a-user-guide-to-jun}}\label{\detokenize{06UserGuideToJun::doc}}
-\sphinxstepscope
-
 
 \section{Old e\sphinxhyphen{}mails}
 \label{\detokenize{OldEmails:old-e-mails}}\label{\detokenize{OldEmails::doc}}
@@ -1174,7 +1148,7 @@ The best way to reach me is e\sphinxhyphen{}mail.
 
 \item {} 
 \sphinxAtStartPar
-Under normal operations, the turnaround time for e\sphinxhyphen{}mails is within 48hrs of “business time” (e.g. weekdays). Sometimes it is crunch time or something logistical (we’re at a conference, we’re hosting a visitor), and turnaround needs to be faster. Sometimes it gets slower, e.g., when you’re on vacation, or weekends or planned time\sphinxhyphen{}off.
+Under normal operations, the turnaround time for e\sphinxhyphen{}mails is within 24hrs of “business time” (e.g. weekdays). Sometimes it is crunch time or something logistical (scheduling meetings with a collaborator, we’re at a conference, we’re hosting a visitor), and turnaround needs to be faster. Sometimes it gets slower, e.g., when you’re on vacation, or weekends or planned time\sphinxhyphen{}off.
 
 \item {} 
 \sphinxAtStartPar
@@ -1187,7 +1161,6 @@ Under normal operations, the turnaround time for e\sphinxhyphen{}mails is within
 Working on a project with another lead (e.g., grad student or postdoc) changes everything, pressure is on. I take this seriously and you will also be expected to.
 \begin{enumerate}
 \sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
-\setcounter{enumi}{5}
 \item {} 
 \sphinxAtStartPar
 I take student privacy seriously, and I take openness with students seriously.
@@ -1199,8 +1172,8 @@ Time is the single most important resource, both materially and symbolically. No
 \end{enumerate}
 
 
-\section{Jun’s notes on finding productivity}
-\label{\detokenize{06UserGuideToJun:jun-s-notes-on-finding-productivity}}\begin{itemize}
+\section{Notes on finding productivity}
+\label{\detokenize{06UserGuideToJun:notes-on-finding-productivity}}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 I came up Jun’s 3 rules for productivity way way back when I was an undergrad at Queen’s. They are not universal. But even after all this time, they still ring true.
