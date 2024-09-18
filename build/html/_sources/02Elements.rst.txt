@@ -70,7 +70,7 @@ There is a fuzzy, probabilistic minimal threshold for each of these.
 
 Above the threshold, there is a trade-off between them. Teams benefit from discussing this trade-off.
 
-Don't underestimate the value of speed. There are many exciting things you can get on board, but for which "The bus leaves at 9:00", meaning there is a specific point in time you need to hit a milestone. Don't fear these things. How do you meet deadlines in such a fuzzy, probabilistic endeavor? :ref:`DevOps <DevOps>`.  
+Don't underestimate the value of speed. There are many exciting things you can get on board, but for which "The bus leaves at 9:00", meaning there is a specific point in time you need to hit a milestone. Don't fear these things. How do you meet deadlines in such a fuzzy, probabilistic endeavor? :ref:`DevOps <CodersAtWork>`.  
 
 Figures!
 --------
@@ -95,14 +95,31 @@ The paper - meaning a 4-10 page document, written in full sentences, describing 
 * "The reason writing a good 4 page memo is harder than 'writing' a 20 page powerpoint is because the narrative structure of a good memo forces better thought and better understanding of what's more important than what, and how things are related."" Jeff Bezos, quoted in `"Write documentation first, then build" <https://reproof.app/blog/document-first-then-build>`_. Similar point made by economist and philanthropist Tyler Cowan in "`Against slide decks <https://marginalrevolution.com/marginalrevolution/2020/08/against-slide-decks.html>`_" (I'm not against slide decks though.)
 
 
+
+
 The :ref:`paper writing process <PaperWritingTips>`
+
+External resources
+------------------
+ 
+* `Figure design tips from software user interface designer <https://uxplanet.org/16-ui-design-tips-ba2e7524d203>`_
+
+*  `Creativity as an antidote to research becoming too predictable, Baer et al., EMBO J 2023 <https://www.embopress.org/doi/full/10.15252/embj.2022112835?af=R>`_
+
+* `"How to slay zombie research projects and move on" Nature 2023 <https://www.nature.com/articles/d41586-023-03958-8>`_
+
+* A debate about the importance of communicating your science in `Nature 2024 <https://www.nature.com/articles/d41586-024-01626-z>`_
+
+* `"The code review anxiety workbook" <https://www.nature.com/articles/d41586-024-01626-z>`_. The first part is a cognitive behavioral therapy-style actionable advice. The second part is mostly about polite e-mail writing. 
+
+* The :download:`Oxford Biomedical Sciences PhD ("DPhil") proposal guidelines </Content/Oxford_DPhil_proposal.pdf>`. Especially compare how "specific measurable attainable relevant and time-bound" it emphasizes, compared to open-ended exploration. 
 
 Getting to scientific quality / rigor
 -------------------------------------
 
 The process of getting something to scientific standard quality involves many steps. 
 Note many steps involve feedback to previous steps (e.g., in oral part you often realize you need a figure modification). 
-So, in true :ref:`DevOps <DevOps>` philosophy, you should plan to revisit every step. 
+So, in true :ref:`DevOps <CodersAtWork>` philosophy, you should plan to revisit every step. 
 We have a rigorous imposed timeline when getting ready to present a result to the outside world. 
 The time it takes for each step get shorter with experience and trust with the collaborators and with me. 
 In general during a science project, I try to serve as an advisor rather than a gatekeeper, but in terms of communicating and exposing it to the world, here I invoke my prerogative to be more controlling, at least at first. 
@@ -122,7 +139,6 @@ People embarking on their first forays into research take about 1 week per step.
 A question for you to be always asking yourself: How do you get faster and more independent, as you mature scientifically?
 When going through this for the first time, I insist on a number of weeks for each step. 
 As you become more experience and I get over my trust issues, the steps accelerate --in some cases a lot! (this acceleration is an honor for me to watch, and one of the single biggest joys in my professional life) -- but they sorta never go away. 
-
 
 
 

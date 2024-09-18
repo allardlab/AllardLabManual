@@ -56,6 +56,10 @@ Writing tips
 
 * Writing a paper is a continuum of fact-reporting (“we did this”, “we observed this”) to interpretation (“this suggests that…”, “this might have implications for…”). Caption is most factual, followed by Results text, followed by figure caption first sentence and Result headings. Discussion is most interpretation. For some historical reason, the figure caption's first sentence is the interpretation, while the subfigure sentences are factual.
 
+* `Twelve scientist-endorsed tips to get over writer’s block, Nature 2024 <https://www.nature.com/articles/d41586-024-02013-4>`
+
+* Whitehead said, “By relieving the brain of all unnecessary work, a good notation sets it free to concentrate on more advanced problems, and in effect increases the mental power of [the reader].”
+
 * Savage and Yeh `"Novelist Cormac McCarthy's tips on how to write a great science paper <https://www.nature.com/articles/d41586-019-02918-5>`_, Nature 2019 I disagree with like half of these.
 
 * *cut cut cut cut* part ii: "On the other hand", "It is important to note", ... are usually meaningless clutter. (There are exceptions.)
@@ -63,3 +67,4 @@ Writing tips
 * Verlyn Klinkenborg `"Several Short Sentences About Writing" <https://sive.rs/book/ShortSentences>`_ 
 
 * The Ten Best Sentences I've read about grant writing by Jun :download:`Grant Writing sentences <https://drive.google.com/file/d/1hLZlfhDnKuQqocQGTx-vPiMLw1m7gnp4/view?usp=sharing>`.
+

@@ -1,5 +1,5 @@
 .. AllardLabManual documentation master file, created by
-   sphinx-quickstart on Thu Mar 24 07:45:54 2022.
+   sphinx-quickstart on Thu Mar 24 07:45:54 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
@@ -18,7 +18,7 @@ There is also a `compiled latex version <https://github.com/allardlab/AllardLabM
 
    01OurMission
    02Elements
-   03DevOps
+   03CodersAtWork
    04WhatIsAPhD
    05Group
    06UserGuideToJun 

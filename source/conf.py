@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'The Allard Lab Manual'
-copyright = '2022, Jun Allard'
+copyright = '2024, Jun Allard'
 author = 'Jun'
 
 
