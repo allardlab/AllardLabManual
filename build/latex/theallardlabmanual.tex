@@ -10,6 +10,9 @@
 %% let collapsible pdf bookmarks panel have high depth per default
 \PassOptionsToPackage{bookmarksdepth=5}{hyperref}
 
+\PassOptionsToPackage{booktabs}{sphinx}
+\PassOptionsToPackage{colorrows}{sphinx}
+
 \PassOptionsToPackage{warn}{textcomp}
 \usepackage[utf8]{inputenc}
 \ifdefined\DeclareUnicodeCharacter
@@ -61,13 +64,18 @@
 
 
 \title{The Allard Lab Manual}
-\date{Jan 11, 2024}
+\date{Sep 18, 2024}
 \release{}
 \author{Jun}
 \newcommand{\sphinxlogo}{\vbox{}}
 \renewcommand{\releasename}{}
 \makeindex
 \begin{document}
+
+\ifdefined\shorthandoff
+  \ifnum\catcode`\=\string=\active\shorthandoff{=}\fi
+  \ifnum\catcode`\"=\active\shorthandoff{"}\fi
+\fi
 
 \pagestyle{empty}
 \sphinxmaketitle
@@ -152,7 +160,7 @@ worldwide, multi\sphinxhyphen{}generational tapestry of scientific knowledge
 To achieve our mission, we adopt certain principles, or “virtues”. Every virtue comes from a value.
 \begin{itemize}
 \item {} \begin{description}
-\item[{Value: We try to make other people’s science better.}] \leavevmode\begin{itemize}
+\sphinxlineitem{Value: We try to make other people’s science better.}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Virtue: Peer Reviewing See this {\hyperref[\detokenize{PeerReviewing:peer-reviewing}]{\sphinxcrossref{\DUrole{std,std-ref}{Peer reviewing}}}} section.
@@ -166,7 +174,7 @@ Virtue: We \sphinxstyleemphasis{memorialize} our own stuff, both for internal fu
 \end{description}
 
 \item {} \begin{description}
-\item[{Value: We value time, the most scarce and precious resource.}] \leavevmode\begin{itemize}
+\sphinxlineitem{Value: We value time, the most scarce and precious resource.}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Virtue: Being on\sphinxhyphen{}time.
@@ -180,7 +188,7 @@ Jun’s Rule If Jun is late, Jun agrees to put \$1/min/attendee into an Allard L
 \end{description}
 
 \item {} \begin{description}
-\item[{Value: We make other people want to work with us.}] \leavevmode\begin{itemize}
+\sphinxlineitem{Value: We make other people want to work with us.}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Virtue: Being a good listener, being excessively respectful of others. There are essential policies that have to do with respecting our colleagues, led by the wider scientific community, the UCI community, and our other affiliated communities. Besides meeting those standards, we try to go beyond them.
@@ -320,6 +328,14 @@ Writing a paper is a continuum of fact\sphinxhyphen{}reporting (“we did this�
 
 \item {} 
 \sphinxAtStartPar
+\sphinxtitleref{Twelve scientist\sphinxhyphen{}endorsed tips to get over writer’s block, Nature 2024 \textless{}https://www.nature.com/articles/d41586\sphinxhyphen{}024\sphinxhyphen{}02013\sphinxhyphen{}4\textgreater{}}
+
+\item {} 
+\sphinxAtStartPar
+Whitehead said, “By relieving the brain of all unnecessary work, a good notation sets it free to concentrate on more advanced problems, and in effect increases the mental power of {[}the reader{]}.”
+
+\item {} 
+\sphinxAtStartPar
 Savage and Yeh \sphinxhref{https://www.nature.com/articles/d41586-019-02918-5}{“Novelist Cormac McCarthy’s tips on how to write a great science paper}, Nature 2019 I disagree with like half of these.
 
 \item {} 
@@ -452,7 +468,7 @@ There is a fuzzy, probabilistic minimal threshold for each of these.
 Above the threshold, there is a trade\sphinxhyphen{}off between them. Teams benefit from discussing this trade\sphinxhyphen{}off.
 
 \sphinxAtStartPar
-Don’t underestimate the value of speed. There are many exciting things you can get on board, but for which “The bus leaves at 9:00”, meaning there is a specific point in time you need to hit a milestone. Don’t fear these things. How do you meet deadlines in such a fuzzy, probabilistic endeavor? {\hyperref[\detokenize{03DevOps:devops}]{\sphinxcrossref{\DUrole{std,std-ref}{DevOps}}}}.
+Don’t underestimate the value of speed. There are many exciting things you can get on board, but for which “The bus leaves at 9:00”, meaning there is a specific point in time you need to hit a milestone. Don’t fear these things. How do you meet deadlines in such a fuzzy, probabilistic endeavor? {\hyperref[\detokenize{03CodersAtWork:codersatwork}]{\sphinxcrossref{\DUrole{std,std-ref}{DevOps}}}}.
 
 
 \section{Figures!}
@@ -497,12 +513,41 @@ A lot of writing will get thrown away as the project evolves. \sphinxstylestrong
 The {\hyperref[\detokenize{PaperWritingTips:paperwritingtips}]{\sphinxcrossref{\DUrole{std,std-ref}{paper writing process}}}}
 
 
+\section{External resources}
+\label{\detokenize{02Elements:external-resources}}\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://uxplanet.org/16-ui-design-tips-ba2e7524d203}{Figure design tips from software user interface designer}
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://www.embopress.org/doi/full/10.15252/embj.2022112835?af=R}{Creativity as an antidote to research becoming too predictable, Baer et al., EMBO J 2023}
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://www.nature.com/articles/d41586-023-03958-8}{“How to slay zombie research projects and move on” Nature 2023}
+
+\item {} 
+\sphinxAtStartPar
+A debate about the importance of communicating your science in \sphinxhref{https://www.nature.com/articles/d41586-024-01626-z}{Nature 2024}
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://www.nature.com/articles/d41586-024-01626-z}{“The code review anxiety workbook”}. The first part is a cognitive behavioral therapy\sphinxhyphen{}style actionable advice. The second part is mostly about polite e\sphinxhyphen{}mail writing.
+
+\item {} 
+\sphinxAtStartPar
+The \sphinxcode{\sphinxupquote{Oxford Biomedical Sciences PhD ("DPhil") proposal guidelines}}. Especially compare how “specific measurable attainable relevant and time\sphinxhyphen{}bound” it emphasizes, compared to open\sphinxhyphen{}ended exploration.
+
+\end{itemize}
+
+
 \section{Getting to scientific quality / rigor}
 \label{\detokenize{02Elements:getting-to-scientific-quality-rigor}}
 \sphinxAtStartPar
 The process of getting something to scientific standard quality involves many steps.
 Note many steps involve feedback to previous steps (e.g., in oral part you often realize you need a figure modification).
-So, in true {\hyperref[\detokenize{03DevOps:devops}]{\sphinxcrossref{\DUrole{std,std-ref}{DevOps}}}} philosophy, you should plan to revisit every step.
+So, in true {\hyperref[\detokenize{03CodersAtWork:codersatwork}]{\sphinxcrossref{\DUrole{std,std-ref}{DevOps}}}} philosophy, you should plan to revisit every step.
 We have a rigorous imposed timeline when getting ready to present a result to the outside world.
 The time it takes for each step get shorter with experience and trust with the collaborators and with me.
 In general during a science project, I try to serve as an advisor rather than a gatekeeper, but in terms of communicating and exposing it to the world, here I invoke my prerogative to be more controlling, at least at first.
@@ -555,11 +600,11 @@ As you become more experience and I get over my trust issues, the steps accelera
 \sphinxstepscope
 
 
-\chapter{Memorialization and the DevOps strategy}
-\label{\detokenize{03DevOps:memorialization-and-the-devops-strategy}}\label{\detokenize{03DevOps:devops}}\label{\detokenize{03DevOps::doc}}
+\chapter{Coders at Work}
+\label{\detokenize{03CodersAtWork:coders-at-work}}\label{\detokenize{03CodersAtWork:codersatwork}}\label{\detokenize{03CodersAtWork::doc}}
 
-\section{DevOps for Systems Biologists}
-\label{\detokenize{03DevOps:devops-for-systems-biologists}}\begin{itemize}
+\section{Memorialization and the DevOps strategy}
+\label{\detokenize{03CodersAtWork:memorialization-and-the-devops-strategy}}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 What is “DevOps”? \sphinxcode{\sphinxupquote{DevOps keynote slides}}.
@@ -568,7 +613,7 @@ What is “DevOps”? \sphinxcode{\sphinxupquote{DevOps keynote slides}}.
 
 
 \section{Upshot}
-\label{\detokenize{03DevOps:upshot}}
+\label{\detokenize{03CodersAtWork:upshot}}
 \sphinxAtStartPar
 In order to…
 \begin{itemize}
@@ -604,8 +649,8 @@ The biggest pro is that you have the option of hitting a deadline “Promise to 
 \noindent\sphinxincludegraphics[width=200\sphinxpxdimen]{{figDeadline}.pdf}
 
 
-\section{Internal resources for DevOps performance}
-\label{\detokenize{03DevOps:internal-resources-for-devops-performance}}\begin{itemize}
+\section{Internal resources for coder performance}
+\label{\detokenize{03CodersAtWork:internal-resources-for-coder-performance}}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 A project workflow file with functions, scripts, input and output. The program VSCode with draw.io plugin is excellent for this. \sphinxhref{https://dev.to/hediet/create-diagrams-in-vs-code-with-draw-io-32pd}{“Diagrams are a great way to communicate ideas visually and can be used to extend or sometimes even replace textual documentations of software projects.”}, \sphinxhref{https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio}{Draw.io VS Code Integration}.
@@ -636,7 +681,7 @@ Example from the physics\sphinxhyphen{}based cell biology stochastic simulator R
 
 
 \section{When to go full\sphinxhyphen{}on DevOps, and when not to?}
-\label{\detokenize{03DevOps:when-to-go-full-on-devops-and-when-not-to}}
+\label{\detokenize{03CodersAtWork:when-to-go-full-on-devops-and-when-not-to}}
 \sphinxAtStartPar
 These tools, like the project workflow schematic, are sometimes useful but sometimes overkill. It is important to have the ability to use these tools, but then it is ok to decide not to use them.
 \begin{itemize}
@@ -650,7 +695,7 @@ Wilson et al, \sphinxhref{https://journals.plos.org/ploscompbiol/article?id=10.1
 Here are some rough guideline
 \begin{itemize}
 \item {} \begin{description}
-\item[{Even for the simplest code:}] \leavevmode\begin{itemize}
+\sphinxlineitem{Even for the simplest code:}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Thoughtful variable names with consistent style (\sphinxcode{\sphinxupquote{camelCase}}, \sphinxcode{\sphinxupquote{snake\_style}}, etc)
@@ -664,7 +709,7 @@ Comment at the top that says what the script tries to achieve
 \end{description}
 
 \item {} \begin{description}
-\item[{When you have a presentable figure}] \leavevmode\begin{itemize}
+\sphinxlineitem{When you have a presentable figure}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 git and version control
@@ -678,7 +723,7 @@ Design a single source of truth, within a scripts. i.e., design so you don’t n
 \end{description}
 
 \item {} \begin{description}
-\item[{Past the \sphinxhref{https://www.johndcook.com/blog/2011/11/22/norris-number/}{Norris limit} of around 1500 lines}] \leavevmode\begin{itemize}
+\sphinxlineitem{Past the \sphinxhref{https://www.johndcook.com/blog/2011/11/22/norris-number/}{Norris limit} of around 1500 lines}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 The Norris limit is rough amount of code an untrained programmer can write before the code becomes so tangled that the author cannot debug or modify it without herculean effort.
@@ -693,14 +738,14 @@ Thoughtful tree (i.e., folder and subfolder) structure. There are \sphinxhref{ht
 
 \item {} 
 \sphinxAtStartPar
-10\sphinxhyphen{}20\% of time “refactoring” (improving the code even if it’s working fine as is). An expression from software engineering is “technical debt”, the amount of disorganized clutter that slows future progress. How much time should you spend paying down technical debt (re\sphinxhyphen{}organizing your notes and directory structure, taking notes) versus producing results? This is called “refactoring”. We debated this percent a lot and this is the range that emerged.
+Roughly 20\% of time “refactoring” (improving the code even if it’s working fine as is). An expression from software engineering is “technical debt”, the amount of disorganized clutter that slows future progress. How much time should you spend paying down technical debt (re\sphinxhyphen{}organizing your notes and directory structure, taking notes) versus producing results? This is called “refactoring”. We debated this percent a lot and this is the range that emerged.
 
 \end{itemize}
 
 \end{description}
 
 \item {} \begin{description}
-\item[{Once the first draft project outline has crystalized (you know the question/gap and approach, and know the figures to generate)}] \leavevmode\begin{itemize}
+\sphinxlineitem{Once the first draft project outline has crystalized (you know the question/gap and approach, and know the figures to generate). This can be one hour a day, one day a week, or one week per month.}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Design a single source of truth, within the workflow.
@@ -717,6 +762,19 @@ Project workflow diagram using draw.io or similar
 
 \end{description}
 
+\item {} \begin{description}
+\sphinxlineitem{How big should a file be? How big should a function be?}
+\end{description}
+
+\end{itemize}
+
+\sphinxAtStartPar
+Resources for coders at work
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://missing.csail.mit.edu/}{The Missing Semester of Your CS Education}
+
 \end{itemize}
 
 \sphinxstepscope
@@ -724,6 +782,10 @@ Project workflow diagram using draw.io or similar
 
 \chapter{What is a PhD?}
 \label{\detokenize{04WhatIsAPhD:what-is-a-phd}}\label{\detokenize{04WhatIsAPhD::doc}}\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+Milojevic et al, \sphinxtitleref{“Changing demographics of scientific careers: The rise of the temporary workforce”, PNAS 2018 \textless{}Changing demographics of scientific careers: The rise of the temporary workforce\textgreater{}}
+
 \item {} 
 \sphinxAtStartPar
 Colin Percival \sphinxhref{https://www.daemonology.net/blog/2020-09-20-On-the-use-of-a-life.html}{“On the use of a life, a.k.a., why I am not an academic”,  personal blog from 2020}. Beautifully written, a lot of specifics about this one individual but universal lesson in there too.
