@@ -11,11 +11,11 @@
 \contentsline {section}{\numberline {2.2}Being an effective scientific communicator}{6}{section.2.2}%
 \contentsline {section}{\numberline {2.3}The elements}{7}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Approach and gap are of equal importance}{7}{section.2.4}%
-\contentsline {section}{\numberline {2.5}The importance rigor resources trade\sphinxhyphen {}off}{8}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Figures!}{8}{section.2.6}%
+\contentsline {section}{\numberline {2.5}The importance+rigor+time trade\sphinxhyphen {}off}{8}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Figures!}{9}{section.2.6}%
 \contentsline {section}{\numberline {2.7}The under\sphinxhyphen {}rated power of writing}{9}{section.2.7}%
 \contentsline {section}{\numberline {2.8}External resources}{9}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Getting to scientific quality / rigor}{9}{section.2.9}%
+\contentsline {section}{\numberline {2.9}Getting to scientific quality / rigor}{10}{section.2.9}%
 \contentsline {chapter}{\numberline {3}Coders at Work}{11}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Memorialization and the DevOps strategy}{11}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Upshot}{11}{section.3.2}%

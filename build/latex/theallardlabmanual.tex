@@ -10,6 +10,9 @@
 %% let collapsible pdf bookmarks panel have high depth per default
 \PassOptionsToPackage{bookmarksdepth=5}{hyperref}
 
+\PassOptionsToPackage{booktabs}{sphinx}
+\PassOptionsToPackage{colorrows}{sphinx}
+
 \PassOptionsToPackage{warn}{textcomp}
 \usepackage[utf8]{inputenc}
 \ifdefined\DeclareUnicodeCharacter
@@ -69,6 +72,11 @@
 \makeindex
 \begin{document}
 
+\ifdefined\shorthandoff
+  \ifnum\catcode`\=\string=\active\shorthandoff{=}\fi
+  \ifnum\catcode`\"=\active\shorthandoff{"}\fi
+\fi
+
 \pagestyle{empty}
 \sphinxmaketitle
 \pagestyle{plain}
@@ -83,9 +91,13 @@ The source file is on github at \sphinxhref{https://github.com/allardlab/AllardL
 You are welcome to fork and pull\sphinxhyphen{}request improvements.
 There is also a \sphinxhref{https://github.com/allardlab/AllardLabManual/raw/main/build/latex/theallardlabmanual.pdf}{compiled latex version}.
 
+\sphinxstepscope
+
 
 \chapter{Mission statement}
 \label{\detokenize{01OurMission:mission-statement}}\label{\detokenize{01OurMission::doc}}
+\sphinxstepscope
+
 
 \section{Peer reviewing}
 \label{\detokenize{PeerReviewing:peer-reviewing}}\label{\detokenize{PeerReviewing:id1}}\label{\detokenize{PeerReviewing::doc}}
@@ -148,7 +160,7 @@ worldwide, multi\sphinxhyphen{}generational tapestry of scientific knowledge
 To achieve our mission, we adopt certain principles, or “virtues”. Every virtue comes from a value.
 \begin{itemize}
 \item {} \begin{description}
-\item[{Value: We try to make other people’s science better.}] \leavevmode\begin{itemize}
+\sphinxlineitem{Value: We try to make other people’s science better.}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Virtue: Peer Reviewing See this {\hyperref[\detokenize{PeerReviewing:peer-reviewing}]{\sphinxcrossref{\DUrole{std,std-ref}{Peer reviewing}}}} section.
@@ -162,7 +174,7 @@ Virtue: We \sphinxstyleemphasis{memorialize} our own stuff, both for internal fu
 \end{description}
 
 \item {} \begin{description}
-\item[{Value: We value time, the most scarce and precious resource.}] \leavevmode\begin{itemize}
+\sphinxlineitem{Value: We value time, the most scarce and precious resource.}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Virtue: Being on\sphinxhyphen{}time.
@@ -176,7 +188,7 @@ Jun’s Rule If Jun is late, Jun agrees to put \$1/min/attendee into an Allard L
 \end{description}
 
 \item {} \begin{description}
-\item[{Value: We make other people want to work with us.}] \leavevmode\begin{itemize}
+\sphinxlineitem{Value: We make other people want to work with us.}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Virtue: Being a good listener, being excessively respectful of others. There are essential policies that have to do with respecting our colleagues, led by the wider scientific community, the UCI community, and our other affiliated communities. Besides meeting those standards, we try to go beyond them.
@@ -192,9 +204,13 @@ Value: We think our projects are cool, in addition to useful.
 
 \end{itemize}
 
+\sphinxstepscope
+
 
 \chapter{Elements of a scientific contribution}
 \label{\detokenize{02Elements:elements-of-a-scientific-contribution}}\label{\detokenize{02Elements::doc}}
+\sphinxstepscope
+
 
 \section{Jun’s paper writing tips and trick}
 \label{\detokenize{PaperWritingTips:jun-s-paper-writing-tips-and-trick}}\label{\detokenize{PaperWritingTips:paperwritingtips}}\label{\detokenize{PaperWritingTips::doc}}
@@ -423,8 +439,8 @@ An analogy is “product\sphinxhyphen{}market fit”.
 It’s ok to have one before you have the other (exploratory projects, “approach first” projects, “question first” projects,…) and it almost always happens that the approach and gap change throughout a project.
 
 
-\section{The importance rigor resources trade\sphinxhyphen{}off}
-\label{\detokenize{02Elements:the-importance-rigor-resources-trade-off}}
+\section{The importance+rigor+time trade\sphinxhyphen{}off}
+\label{\detokenize{02Elements:the-importance-rigor-time-trade-off}}
 \sphinxAtStartPar
 A useful coordinate system to “project” (verb) success as a project progresses:
 
@@ -454,6 +470,35 @@ Above the threshold, there is a trade\sphinxhyphen{}off between them. Teams bene
 \sphinxAtStartPar
 Don’t underestimate the value of speed. There are many exciting things you can get on board, but for which “The bus leaves at 9:00”, meaning there is a specific point in time you need to hit a milestone. Don’t fear these things. How do you meet deadlines in such a fuzzy, probabilistic endeavor? {\hyperref[\detokenize{03CodersAtWork:codersatwork}]{\sphinxcrossref{\DUrole{std,std-ref}{DevOps}}}}.
 
+\sphinxAtStartPar
+Scientific research projects are a pipeline process with many steps.
+Each step in the process requires a different skillset and a different mindset.
+(Not “smart”, “hardworking”, “fast”, which are useful at all steps.)
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+Early, exploratory phase. Skillset and mindset: Ability to accept uncertainty. Curiosity. Ok with lack of rigor. Willingness to try messy, vague things. Let’s just see what happens! “Intentionality” is bad here. A love of learning. Being comfortable with lots of failure.
+
+\item {} 
+\sphinxAtStartPar
+Rigor phase, “benchwork” phase. Skillset and mindset: Technical rigor. Carefulness. Being well\sphinxhyphen{}tempered. At some point here, there must be a transition from “what is the most interesting conclusion” to “how would we show that conclusion?”.
+
+\item {} 
+\sphinxAtStartPar
+Production phase. Intentionality. Being focused on a single goal, which is to get this thing out the door. Willingness to put aside ideals of ambition. Willingness to put aside ideals of comprehensiveness. Perfectionism is the enemy.
+
+\item {} 
+\sphinxAtStartPar
+Write\sphinxhyphen{}up phase and  review phase. Skillset and mindset: (1) Empathy, humility. Put yourself in someone else’s shoes (the peer reviewer, the field, the collaborators,…). To be a “stranger in a familiar land”. Ability to listen to others, and hear both their logical argument and what they aren’t saying. (2) Since the goal is communication rather than impact, some tradeoffs swap completely. Perfectionism in presentation and clarity, at the expense of perfectionism in eg comprehensiveness and completeness. The \_\_science\_\_ does not need to be complete, but the \_\_report\_\_ needs to be complete.
+
+\end{itemize}
+
+\sphinxAtStartPar
+Pipeline steps are “multiplicative” rather than “additive”, meaning that you cannot make up for a deficit in one with being a superstar in another.
+In a way, the fact that they’re multiplicative is anxiety\sphinxhyphen{}inducing, because you must be good at everything.
+But in another way, it is liberating: You don’t need to be the smartest, the most careful, the hardest working. (Indeed often, you will see people are 10x more brilliant than you, and they can’t get anything done.)
+I’ve worked with people who were awesome at the first 2, or first 3, phases, and just couldn’t get through the later phases.
+
 
 \section{Figures!}
 \label{\detokenize{02Elements:figures}}\begin{itemize}
@@ -468,6 +513,15 @@ Upshot: You need the ability to make a figure that is publication grade, informa
 
 \sphinxAtStartPar
 The “Masterful Inaction” principle: it’s ok to make a quick figure, as long as you’re doing it because you have the ability to make a publication\sphinxhyphen{}quality figure and have deliberately made the decision not to.
+
+\sphinxAtStartPar
+For size rules, check out guidelines for some or our favorite journals:
+\sphinxhref{https://journals.plos.org/plosbiology/s/figures}{PLoS},
+\sphinxhref{https://www.pnas.org/author-center/submitting-your-manuscript\#manuscript-formatting-guidelines}{PNAS},
+\sphinxhref{https://www.cell.com/figure-guidelines}{Biophys J},
+\sphinxhref{https://www.nature.com/nature/for-authors/formatting-guide\#:~:text=For\%20guidance\%2C\%20Nature's\%20standard\%20figure,of\%2050\%20or\%20100\%20characters.}{Nature},
+\sphinxhref{https://www.embopress.org/page/journal/14602075/authorguide\#figureformat}{EMBO}.
+Roughly, the figures are either 19cm or 8.5cm wide, tall enough to fit on a single 8.5”\sphinxhyphen{}11” page with their beefy caption, and fonts must be larger than 6pt.
 
 
 \section{The under\sphinxhyphen{}rated power of writing}
@@ -529,6 +583,26 @@ The \sphinxcode{\sphinxupquote{Oxford Biomedical Sciences PhD ("DPhil") proposal
 \section{Getting to scientific quality / rigor}
 \label{\detokenize{02Elements:getting-to-scientific-quality-rigor}}
 \sphinxAtStartPar
+Overflowing work hours (all\sphinxhyphen{}nighters etc) are avoidable.
+It often feels like there is a crisis, and now we gotta push to make it.
+This phenomenon is sometimes called “heroics”.
+
+\sphinxAtStartPar
+The way to avoid heroics begins 10 weeks before a deadline (conference poster or talk, advancement exam, grant submission, paper submission).
+After that, the ball is rolling down a slope.
+
+\sphinxAtStartPar
+Some organizations believe that “heroics” are bad: they show the system failed!
+Then again, they are also a sign of optimism, aspiration:
+Many creators say they wouldn’t have been able to achieve greatness if they knew how hard it would be when they started.
+Sometimes there is an opportunity you want to pursue, but we don’t have 10 weeks.
+The important thing is that you know what you’re getting into.
+
+\sphinxAtStartPar
+In part because of the previous point, we have a rigorous imposed timeline when getting ready to present a result to the outside world.
+The time it takes for each step get shorter with (1) experience and (2) trust with the collaborators and with me.
+
+\sphinxAtStartPar
 The process of getting something to scientific standard quality involves many steps.
 Note many steps involve feedback to previous steps (e.g., in oral part you often realize you need a figure modification).
 So, in true {\hyperref[\detokenize{03CodersAtWork:codersatwork}]{\sphinxcrossref{\DUrole{std,std-ref}{DevOps}}}} philosophy, you should plan to revisit every step.
@@ -580,6 +654,8 @@ People embarking on their first forays into research take about 1 week per step.
 A question for you to be always asking yourself: How do you get faster and more independent, as you mature scientifically?
 When going through this for the first time, I insist on a number of weeks for each step.
 As you become more experience and I get over my trust issues, the steps accelerate \textendash{}in some cases a lot! (this acceleration is an honor for me to watch, and one of the single biggest joys in my professional life) \textendash{} but they sorta never go away.
+
+\sphinxstepscope
 
 
 \chapter{Coders at Work}
@@ -677,7 +753,7 @@ Wilson et al, \sphinxhref{https://journals.plos.org/ploscompbiol/article?id=10.1
 Here are some rough guideline
 \begin{itemize}
 \item {} \begin{description}
-\item[{Even for the simplest code:}] \leavevmode\begin{itemize}
+\sphinxlineitem{Even for the simplest code:}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Thoughtful variable names with consistent style (\sphinxcode{\sphinxupquote{camelCase}}, \sphinxcode{\sphinxupquote{snake\_style}}, etc)
@@ -691,7 +767,7 @@ Comment at the top that says what the script tries to achieve
 \end{description}
 
 \item {} \begin{description}
-\item[{When you have a presentable figure}] \leavevmode\begin{itemize}
+\sphinxlineitem{When you have a presentable figure}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 git and version control
@@ -705,7 +781,7 @@ Design a single source of truth, within a scripts. i.e., design so you don’t n
 \end{description}
 
 \item {} \begin{description}
-\item[{Past the \sphinxhref{https://www.johndcook.com/blog/2011/11/22/norris-number/}{Norris limit} of around 1500 lines}] \leavevmode\begin{itemize}
+\sphinxlineitem{Past the \sphinxhref{https://www.johndcook.com/blog/2011/11/22/norris-number/}{Norris limit} of around 1500 lines}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 The Norris limit is rough amount of code an untrained programmer can write before the code becomes so tangled that the author cannot debug or modify it without herculean effort.
@@ -727,7 +803,7 @@ Roughly 20\% of time “refactoring” (improving the code even if it’s workin
 \end{description}
 
 \item {} \begin{description}
-\item[{Once the first draft project outline has crystalized (you know the question/gap and approach, and know the figures to generate). This can be one hour a day, one day a week, or one week per month.}] \leavevmode\begin{itemize}
+\sphinxlineitem{Once the first draft project outline has crystalized (you know the question/gap and approach, and know the figures to generate). This can be one hour a day, one day a week, or one week per month.}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Design a single source of truth, within the workflow.
@@ -745,7 +821,7 @@ Project workflow diagram using draw.io or similar
 \end{description}
 
 \item {} \begin{description}
-\item[{How big should a file be? How big should a function be?}] \leavevmode
+\sphinxlineitem{How big should a file be? How big should a function be?}
 \end{description}
 
 \end{itemize}
@@ -758,6 +834,8 @@ Resources for coders at work
 \sphinxhref{https://missing.csail.mit.edu/}{The Missing Semester of Your CS Education}
 
 \end{itemize}
+
+\sphinxstepscope
 
 
 \chapter{What is a PhD?}
@@ -965,6 +1043,9 @@ Next quarter, I plan to…
 Put your report in an editable format (Google Doc, latex, MS Word doc), and we will schedule a special slot to go through it together.
 
 \sphinxAtStartPar
+This exercise is valuable if it is used for more than a research update, that is, not to show and interrogate new results. (If you have new results that I haven’t seen, then just put it under “6. Next quarter”, for an easy win next quarter!)
+
+\sphinxAtStartPar
 Bonus topics you’re welcome to include (in addition to anything else you want to):
 \begin{enumerate}
 \sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
@@ -981,6 +1062,8 @@ A skill or technique I want to learn and teach the group is…
 In the \sphinxhref{https://hbr.org/resources/images/article\_assets/2020/10/R2006F\_PODOLNY\_ROSNER-768x1189.png}{own\sphinxhyphen{}learn\sphinxhyphen{}teach\sphinxhyphen{}delegate} axes, here is something I want to delegate to Jun/someone else, and something I want to take ownership of:…
 
 \end{enumerate}
+
+\sphinxstepscope
 
 
 \chapter{The Group!}
@@ -1061,9 +1144,13 @@ How do we maximally exploit RH274 in the post\sphinxhyphen{}covid era?
 \sphinxAtStartPar
 Should we do a weekly Starbucks/Peet’s coffee break?
 
+\sphinxstepscope
+
 
 \chapter{Working with Jun / “A user guide to Jun”}
 \label{\detokenize{06UserGuideToJun:working-with-jun-a-user-guide-to-jun}}\label{\detokenize{06UserGuideToJun::doc}}
+\sphinxstepscope
+
 
 \section{Old e\sphinxhyphen{}mails}
 \label{\detokenize{OldEmails:old-e-mails}}\label{\detokenize{OldEmails::doc}}

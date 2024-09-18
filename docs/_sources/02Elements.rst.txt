@@ -52,7 +52,7 @@ An analogy is “product-market fit”.
 
 It's ok to have one before you have the other (exploratory projects, "approach first" projects, "question first" projects,...) and it almost always happens that the approach and gap change throughout a project.
 
-The importance rigor resources trade-off
+The importance+rigor+time trade-off
 --------------------------------------------------
 
 A useful coordinate system to "project" (verb) success as a project progresses:
@@ -72,6 +72,24 @@ Above the threshold, there is a trade-off between them. Teams benefit from discu
 
 Don't underestimate the value of speed. There are many exciting things you can get on board, but for which "The bus leaves at 9:00", meaning there is a specific point in time you need to hit a milestone. Don't fear these things. How do you meet deadlines in such a fuzzy, probabilistic endeavor? :ref:`DevOps <CodersAtWork>`.  
 
+.. DRAFT
+
+Scientific research projects are a pipeline process with many steps. 
+Each step in the process requires a different skillset and a different mindset.
+(Not "smart", "hardworking", "fast", which are useful at all steps.)
+
+    - Early, exploratory phase. Skillset and mindset: Ability to accept uncertainty. Curiosity. Ok with lack of rigor. Willingness to try messy, vague things. Let's just see what happens! "Intentionality" is bad here. A love of learning. Being comfortable with lots of failure. 
+    - Rigor phase, "benchwork" phase. Skillset and mindset: Technical rigor. Carefulness. Being well-tempered. At some point here, there must be a transition from "what is the most interesting conclusion" to "how would we show that conclusion?".
+    - Production phase. Intentionality. Being focused on a single goal, which is to get this thing out the door. Willingness to put aside ideals of ambition. Willingness to put aside ideals of comprehensiveness. Perfectionism is the enemy.
+    - Write-up phase and  review phase. Skillset and mindset: (1) Empathy, humility. Put yourself in someone else's shoes (the peer reviewer, the field, the collaborators,...). To be a "stranger in a familiar land". Ability to listen to others, and hear both their logical argument and what they aren't saying. (2) Since the goal is communication rather than impact, some tradeoffs swap completely. Perfectionism in presentation and clarity, at the expense of perfectionism in eg comprehensiveness and completeness. The __science__ does not need to be complete, but the __report__ needs to be complete.  
+
+Pipeline steps are "multiplicative" rather than "additive", meaning that you cannot make up for a deficit in one with being a superstar in another. 
+In a way, the fact that they're multiplicative is anxiety-inducing, because you must be good at everything. 
+But in another way, it is liberating: You don't need to be the smartest, the most careful, the hardest working. (Indeed often, you will see people are 10x more brilliant than you, and they can't get anything done.)
+I've worked with people who were awesome at the first 2, or first 3, phases, and just couldn't get through the later phases. 
+
+.. END DRAFT
+
 Figures!
 --------
 
@@ -80,6 +98,14 @@ Figures!
 Upshot: You need the ability to make a figure that is publication grade, informative, and digestible. *Not a pixel out of place.*
 
 The "Masterful Inaction" principle: it's ok to make a quick figure, as long as you're doing it because you have the ability to make a publication-quality figure and have deliberately made the decision not to.
+
+For size rules, check out guidelines for some or our favorite journals: 
+`PLoS <https://journals.plos.org/plosbiology/s/figures>`_, 
+`PNAS <https://www.pnas.org/author-center/submitting-your-manuscript#manuscript-formatting-guidelines>`_, 
+`Biophys J <https://www.cell.com/figure-guidelines>`_,
+`Nature <https://www.nature.com/nature/for-authors/formatting-guide#:~:text=For%20guidance%2C%20Nature's%20standard%20figure,of%2050%20or%20100%20characters.>`_, 
+`EMBO <https://www.embopress.org/page/journal/14602075/authorguide#figureformat>`_. 
+Roughly, the figures are either 19cm or 8.5cm wide, tall enough to fit on a single 8.5"-11" page with their beefy caption, and fonts must be larger than 6pt. 
 
 The under-rated power of writing
 --------------------------------
@@ -116,6 +142,27 @@ External resources
 
 Getting to scientific quality / rigor
 -------------------------------------
+
+.. DRAFT
+
+Overflowing work hours (all-nighters etc) are avoidable. 
+It often feels like there is a crisis, and now we gotta push to make it.
+This phenomenon is sometimes called "heroics". 
+
+The way to avoid heroics begins 10 weeks before a deadline (conference poster or talk, advancement exam, grant submission, paper submission).
+After that, the ball is rolling down a slope.   
+
+Some organizations believe that "heroics" are bad: they show the system failed!
+Then again, they are also a sign of optimism, aspiration: 
+Many creators say they wouldn't have been able to achieve greatness if they knew how hard it would be when they started.
+Sometimes there is an opportunity you want to pursue, but we don't have 10 weeks. 
+The important thing is that you know what you're getting into. 
+
+
+.. END DRAFT
+
+In part because of the previous point, we have a rigorous imposed timeline when getting ready to present a result to the outside world. 
+The time it takes for each step get shorter with (1) experience and (2) trust with the collaborators and with me. 
 
 The process of getting something to scientific standard quality involves many steps. 
 Note many steps involve feedback to previous steps (e.g., in oral part you often realize you need a figure modification). 

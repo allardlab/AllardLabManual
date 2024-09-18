@@ -108,6 +108,8 @@ It can be as short as 7 sentences, but can be longer.
 
 Put your report in an editable format (Google Doc, latex, MS Word doc), and we will schedule a special slot to go through it together.
 
+This exercise is valuable if it is used for more than a research update, that is, not to show and interrogate new results. (If you have new results that I haven't seen, then just put it under "6. Next quarter", for an easy win next quarter!)
+
 
 Bonus topics you're welcome to include (in addition to anything else you want to):
 
