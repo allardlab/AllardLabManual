@@ -5,6 +5,9 @@ This is the source for the Allard Lab Manual, which is accessible at https://all
 
 ## Quickstart how to use sphinx
 
-```make html```
-
-```make latexpdf```
+```
+make html
+make latexpdf
+rm -rf docs
+cp -r build/html docs
+```
