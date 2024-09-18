@@ -18,7 +18,7 @@ There is also a `compiled latex version <https://github.com/allardlab/AllardLabM
 
    01OurMission
    02Elements
-   03DevOps
+   03CodersAtWork
    04WhatIsAPhD
    05Group
    06UserGuideToJun 
