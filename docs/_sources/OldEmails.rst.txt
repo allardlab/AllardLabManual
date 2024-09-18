@@ -1,6 +1,33 @@
 Old e-mails
 ===========================
 
+.. _scheduling:
+
+How to schedule a meeting
+-------------------------
+
+One of the most empowering things about being in our big, active community is that we can exploit the expertise of those around us.
+But one of the most frustrating and limiting tasks is scheduling a synchronous activity with a group.
+Here are some tips.
+
+Always:
+
+- When you send out a poll of time, always specify a reply-by date, and say explicitly that it is to "protect the calendars" or "protect your schedules" of the respondents. 
+- If you need 5 members, don't pick 5 and then find a time. Make a ranked list of around 10, and start at the top. Try to find a committee that fits into the time interval. This is much easier than setting a committee then finding a time.
+
+
+Sometimes:
+
+- Do it in two stages: First to pick day, and a second to pick the time (this reduces, e.g., 5 times in 5 days =25 options to 10 options)
+- Offer them to tell you their availability by e-mail, and you put it into the platform.
+
+Rarely, but when possible:
+
+- Wait until someone asks you a favor. Then, in the same e-mail when you respond to their request, remind them about your request.
+
+Technology exists to help, but none of it is perfect: doodle, when2meet, Qualtrics (UCI gets it free), or a google form (most flexible).
+
+
 .. _receiving_reviews:
 
 An old e-mail about receiving peer reviews
