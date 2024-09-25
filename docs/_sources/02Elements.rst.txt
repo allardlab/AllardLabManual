@@ -81,7 +81,7 @@ Each step in the process requires a different skillset and a different mindset.
     - Early, exploratory phase. Skillset and mindset: Ability to accept uncertainty. Curiosity. Ok with lack of rigor. Willingness to try messy, vague things. Let's just see what happens! "Intentionality" is bad here. A love of learning. Being comfortable with lots of failure. 
     - Rigor phase, "benchwork" phase. Skillset and mindset: Technical rigor. Carefulness. Being well-tempered. At some point here, there must be a transition from "what is the most interesting conclusion" to "how would we show that conclusion?".
     - Production phase. Intentionality. Being focused on a single goal, which is to get this thing out the door. Willingness to put aside ideals of ambition. Willingness to put aside ideals of comprehensiveness. Perfectionism is the enemy.
-    - Write-up phase and  review phase. Skillset and mindset: (1) Empathy, humility. Put yourself in someone else's shoes (the peer reviewer, the field, the collaborators,...). To be a "stranger in a familiar land". Ability to listen to others, and hear both their logical argument and what they aren't saying. (2) Since the goal is communication rather than impact, some tradeoffs swap completely. Perfectionism in presentation and clarity, at the expense of perfectionism in eg comprehensiveness and completeness. The __science__ does not need to be complete, but the __report__ needs to be complete.  
+    - Write-up phase and  review phase. Skillset and mindset: (1) Empathy, humility. Put yourself in someone else's shoes (the peer reviewer, the field, the collaborators,...). To be a "stranger in a familiar land". Ability to listen to others, and hear both their logical argument and what they aren't saying. (2) Since the goal is communication rather than impact, some tradeoffs swap completely. Perfectionism in presentation and clarity, at the expense of perfectionism in eg comprehensiveness and completeness. The *science* does not need to be complete, but the *report* needs to be complete.  
 
 Pipeline steps are "multiplicative" rather than "additive", meaning that you cannot make up for a deficit in one with being a superstar in another. 
 In a way, the fact that they're multiplicative is anxiety-inducing, because you must be good at everything. 
@@ -146,29 +146,25 @@ Getting to scientific quality / rigor
 .. DRAFT
 
 Overflowing work hours (all-nighters etc) are avoidable. 
-It often feels like there is a crisis, and now we gotta push to make it.
-This phenomenon is sometimes called "heroics". 
-
+It often feels like there is a crisis, and there is a sudden need to push to make it.
+This phenomenon is sometimes called "heroics" [1]_ . 
 The way to avoid heroics begins 10 weeks before a deadline (conference poster or talk, advancement exam, grant submission, paper submission).
-After that, the ball is rolling down a slope.   
+.. After that, the ball is rolling down a slope.   
 
-Some organizations believe that "heroics" are bad: they show the system failed!
-Then again, they are also a sign of optimism, aspiration: 
-Many creators say they wouldn't have been able to achieve greatness if they knew how hard it would be when they started.
-Sometimes there is an opportunity you want to pursue, but we don't have 10 weeks. 
-The important thing is that you know what you're getting into. 
-
+.. [1] Some organizations believe that "heroics" are bad: they show the system failed. Then again, they are also a sign of optimism, aspiration: Many creators say they wouldn't have been able to achieve greatness if they knew how hard it would be when they started. Sometimes there is an opportunity you want to pursue, but we don't have 10 weeks. The important thing is that you know what you're getting into.
 
 .. END DRAFT
 
-In part because of the previous point, we have a rigorous imposed timeline when getting ready to present a result to the outside world. 
+.. In part because of the previous point, we have a rigorous imposed timeline when getting ready to present a result to the outside world. 
+
 The time it takes for each step get shorter with (1) experience and (2) trust with the collaborators and with me. 
 
-The process of getting something to scientific standard quality involves many steps. 
+.. The process of getting something to scientific standard quality involves many steps. 
+
 Note many steps involve feedback to previous steps (e.g., in oral part you often realize you need a figure modification). 
-So, in true :ref:`DevOps <CodersAtWork>` philosophy, you should plan to revisit every step. 
-We have a rigorous imposed timeline when getting ready to present a result to the outside world. 
-The time it takes for each step get shorter with experience and trust with the collaborators and with me. 
+.. So, in true :ref:`DevOps <CodersAtWork>` philosophy, you should plan to revisit every step. 
+.. We have a rigorous imposed timeline when getting ready to present a result to the outside world. 
+.. The time it takes for each step get shorter with experience and trust with the collaborators and with me. 
 In general during a science project, I try to serve as an advisor rather than a gatekeeper, but in terms of communicating and exposing it to the world, here I invoke my prerogative to be more controlling, at least at first. 
 
 - 9: Outline of **narrative**, i.e., "key sentences" "headlines"; Wishlist of figure and key sentences. Statement of gap that is being filled; wishlist of figures etc that address it. 
