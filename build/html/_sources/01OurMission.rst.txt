@@ -13,7 +13,7 @@ Mission statement
 The mission of our research group
 ---------------------------------
 
-The mission of our research group is to make *rigorous, relevant and elegant* contributions to the scientific knowledge of humanity.
+The mission of our research group is to make *rigorous, relevant and elegant* contributions to the scientific knowledge of the world.
 We use computational, mathematical and biophysical approaches to figure out *how living cells use force, space and time* in their *problem-solving strategies*.
 We work so that the basic science discoveries we make become part of the *worldwide, multi-generational tapestry of scientific knowledge* that benefits all people.  
 
@@ -69,8 +69,8 @@ To achieve our mission, we adopt certain principles, or "virtues". Every virtue 
    - Virtue: Being on-time.
    
    .. - Jun's Rule If Jun is late, Jun agrees to put $1/min/attendee into an Allard Lab discretionary fund. 
-- Value: We make other people want to work with us.
+- Value: We aspire for other people want to work with us.
     - Virtue: Being a good listener, being excessively respectful of others. There are essential policies that have to do with respecting our colleagues, led by the wider scientific community, the UCI community, and our other affiliated communities. Besides meeting those standards, we try to go beyond them.
-- Value: We think our projects are cool, in addition to useful.
+- Value: We think our projects are cool, in addition to valuable.
   - *[Jun Question for Team] Should we start posting fun visuals, etc., on social media: BlueSky LinkedIn, other?.*
 

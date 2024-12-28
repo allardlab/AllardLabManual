@@ -12,7 +12,7 @@ Being an effective scientific communicator
 
 We spend a lot of time on communication, optimizing presentations, poster, paper figures. This is for a few reasons.
 
-1. Clear thinking means clear communicating, and clear communicating is clear thinking. There is almost never a distinction in effort.
+1. Clear thinking means clear communicating, and clear communicating is clear thinking. 
 
 2. Science gains from network effects, but only if each lab/scientist devotes effort to communicating and coordinating. Like a high-performance computer devoting some of its cpu time to parallelization.
 
@@ -20,13 +20,13 @@ We spend a lot of time on communication, optimizing presentations, poster, paper
 The elements  
 ------------
 
-There is a standard layout -- the time-tested most powerful layout -- for a  scientific contribution that works particularly well. 
+There is a standard layout -- time-tested, powerful -- for a  scientific contribution that works particularly well. 
 
 - Big question/background
 - Specific question/hypothesis -- what you will deliver in this work
 - "Here we"
 - Method
-- Results
+- Results, which are usually active sentences, not plots or noun-phrases
 - Impact
 
 Here are some examples of paper abstracts and layouts: 
@@ -43,12 +43,12 @@ Doing science involves two activities of equal importance:
 
 (1) Identifying the gap in current knowledge/needs
 
-(2) Modeling/experiment approach and carrying out that approach
+(2) Computational/modeling/experiment approach and carrying out that approach
 
 .. image:: figGapApproach.*
    :width: 400px
 
-An analogy is “product-market fit”.
+.. An analogy is “product-market fit”.
 
 It's ok to have one before you have the other (exploratory projects, "approach first" projects, "question first" projects,...) and it almost always happens that the approach and gap change throughout a project.
 
@@ -70,9 +70,42 @@ There is a fuzzy, probabilistic minimal threshold for each of these.
 
 Above the threshold, there is a trade-off between them. Teams benefit from discussing this trade-off.
 
-Don't underestimate the value of speed. There are many exciting things you can get on board, but for which "The bus leaves at 9:00", meaning there is a specific point in time you need to hit a milestone. Don't fear these things. How do you meet deadlines in such a fuzzy, probabilistic endeavor? :ref:`DevOps <CodersAtWork>`.  
+Don't underestimate the value of speed. 
+
+.. There are many exciting things you can get on board, but for which "The bus leaves at 9:00", meaning there is a specific point in time you need to hit a milestone. Don't fear these things. How do you meet deadlines in such a fuzzy, probabilistic endeavor? :ref:`DevOps <CodersAtWork>`.  
 
 .. DRAFT
+
+Jun's definition of baseline scientific rigor
+----------------------------------------------
+
+The following is my opinion and is not universally shared.
+
+Working in multidisciplinary teams has taught me that **rigor isn’t a rigid threshold—it’s a flexible, context-dependent standard** that adapts to the nature of the question, the tools available, and the intended audience. 
+
+At its core, rigor means **accurate, transparent reporting of what was done, what was not done, and what remains uncertain.** 
+Think of it like a **battlefield journalist in a conflict zone** rather than a battlefield general:
+A journalist’s job is not to win or advance the war but to report faithfully on its unfolding realities—regardless of whether the war is ongoing, paused, or complete. Similarly, a scientific paper is a snapshot of a project in time: a rigorous paper doesn’t need every question answered or every experiment performed, but it must report an accurate, clear story about the current state of understanding.
+Speculation is ok, wishful thinking is ok, as long as it is labeled as such.
+
+The *science* does not need to be complete, but the *report* needs to be complete.  
+
+Using this definition for baseline rigor, this immediately implies a relationship with importance of the result, since by this definition alone, we would publish unimportant/boring/trivial results.
+So rigor can be paired with, but separated from, the concept of **importance.** 
+Baseline rigor ensures a scientific report is trustworthy, but importance ensures it’s worth sharing in the first place. 
+A perfectly rigorous but trivial observation adds little to the broader scientific tapestry. 
+Therefore, we aim to meet baseline rigor as a non-negotiable standard *while actively engaging with the question of importance.* 
+This interplay creates a healthy tension: we strive to report honestly, avoid unnecessary scope creep, and ensure that what we publish contributes meaningfully to advancing knowledge. 
+Balancing these two dimensions is the art—and the joy—of scientific work.
+
+That is, rigor primarily lives in how we report and contextualize our work, not in reaching some mythical state of experimental completeness. 
+This perspective frees us to tackle ambitious, cross-disciplinary questions while maintaining high standards. 
+When we're uncertain about a result or interpretation, we don't need to do "just one more experiment" – instead, we can rigorously describe our current understanding and its boundaries. 
+This approach helps prevent the common trap of endless perfectionism while ensuring our work contributes reliably to the scientific record.
+
+
+A pipeline process requiring different skills and mindsets
+----------------------------------------------------------
 
 Scientific research projects are a pipeline process with many steps. 
 Each step in the process requires a different skillset and a different mindset.
@@ -85,8 +118,9 @@ Each step in the process requires a different skillset and a different mindset.
 
 Pipeline steps are "multiplicative" rather than "additive", meaning that you cannot make up for a deficit in one with being a superstar in another. 
 In a way, the fact that they're multiplicative is anxiety-inducing, because you must be good at everything. 
-But in another way, it is liberating: You don't need to be the smartest, the most careful, the hardest working. (Indeed often, you will see people are 10x more brilliant than you, and they can't get anything done.)
-I've worked with people who were awesome at the first 2, or first 3, phases, and just couldn't get through the later phases. 
+But in another way, it is liberating: You don't need to be the smartest, the most careful, the hardest working. (Indeed often, you will see people that seem 10x smarter than you, and they can't get anything done.)
+
+.. I've worked with people who were awesome at the first 2, or first 3, phases, and just couldn't get through the later phases. 
 
 .. END DRAFT
 
@@ -97,7 +131,7 @@ Figures!
 
 Upshot: You need the ability to make a figure that is publication grade, informative, and digestible. *Not a pixel out of place.*
 
-The "Masterful Inaction" principle: it's ok to make a quick figure, as long as you're doing it because you have the ability to make a publication-quality figure and have deliberately made the decision not to.
+The "Masterful Inaction" principle: it's ok to make a quick rough figure, as long as you're doing it because you have the ability to make a publication-quality figure and have deliberately made the decision not to.
 
 For size rules, check out guidelines for some or our favorite journals: 
 `PLoS <https://journals.plos.org/plosbiology/s/figures>`_, 
@@ -114,7 +148,7 @@ The paper - meaning a 4-10 page document, written in full sentences, describing 
 
 * Start the latex doc early! Prototype latex doc that Jun uses personally in `this git repo <https://github.com/allardjun/JunsLatexRepository>`_. (This is good for Project Seeds, and papers. Probably not good for thesis.)
 
-* A lot of writing will get thrown away as the project evolves. **Writing is never wasted.** 
+* A lot of writing will get thrown away as the project evolves. **Writing is never wasted, because clear writing is clear thinking.** 
 
 * "When people present an idea in slides, everyone says 'yaaa that's greaaaat'. But when you make them write it down in a 1-page proposal, suddenly the problems become clear, and the needed improvement becomes clear." - Qing Nie, paraphrased by Jun.  In many cases in our projects, we have a fantastic presentation (poster or slide deck) about a year before we have a great paper.
 
@@ -138,7 +172,7 @@ External resources
 
 * `"The code review anxiety workbook" <https://www.nature.com/articles/d41586-024-01626-z>`_. The first part is a cognitive behavioral therapy-style actionable advice. The second part is mostly about polite e-mail writing. 
 
-* The :download:`Oxford Biomedical Sciences PhD ("DPhil") proposal guidelines </Content/Oxford_DPhil_proposal.pdf>`. Especially compare how "specific measurable attainable relevant and time-bound" it emphasizes, compared to open-ended exploration. 
+* The :download:`Oxford Biomedical Sciences PhD ("DPhil") proposal guidelines </Content/Oxford_DPhil_proposal.pdf>`. Especially intruiging is how "specific measurable attainable relevant and time-bound" it emphasizes, compared to open-ended exploration. 
 
 Getting to scientific quality / rigor
 -------------------------------------
@@ -183,7 +217,7 @@ A question for you to be always asking yourself: How do you get faster and more 
 When going through this for the first time, I insist on a number of weeks for each step. 
 As you become more experience and I get over my trust issues, the steps accelerate --in some cases a lot! (this acceleration is an honor for me to watch, and one of the single biggest joys in my professional life) -- but they sorta never go away. 
 
-
+The above rough guideline of *ten weeks to a presentation* is related to the rough guideline of :ref:`ten weeks to a paper<PaperWritingTips>`.
 
 
 
