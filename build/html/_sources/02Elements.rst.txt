@@ -79,13 +79,11 @@ Don't underestimate the value of speed.
 Jun's definition of baseline scientific rigor
 ----------------------------------------------
 
-The following is my opinion and is not universally shared.
-
 Working in multidisciplinary teams has taught me that **rigor isn’t a rigid threshold—it’s a flexible, context-dependent standard** that adapts to the nature of the question, the tools available, and the intended audience. 
 
-At its core, rigor means **accurate, transparent reporting of what was done, what was not done, and what remains uncertain.** 
+So, I have adopted this definition: baseline rigor means **accurate, transparent reporting of what was done, what was not done, and what remains uncertain.** 
 Think of it like a **battlefield journalist in a conflict zone** rather than a battlefield general:
-A journalist’s job is not to win or advance the war but to report faithfully on its unfolding realities—regardless of whether the war is ongoing, paused, or complete. Similarly, a scientific paper is a snapshot of a project in time: a rigorous paper doesn’t need every question answered or every experiment performed, but it must report an accurate, clear story about the current state of understanding.
+A journalist’s job is not to win or advance the troops but to report faithfully on its unfolding realities—regardless of whether the war is ongoing, paused, or complete. Similarly, a scientific paper is a snapshot of a project in time: a rigorous paper doesn’t need every question answered or every experiment performed, but it must report an accurate, clear story about the current state of understanding.
 Speculation is ok, wishful thinking is ok, as long as it is labeled as such.
 
 The *science* does not need to be complete, but the *report* needs to be complete.  

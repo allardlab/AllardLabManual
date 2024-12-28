@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.27)  18 SEP 2024 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.27)  28 DEC 2024 10:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -869,104 +869,104 @@ Chapter 2.
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 3
-51.
+47.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 ) [6]
-<figGapApproach.pdf, id=293, 241.84352pt x 183.2446pt>
+<figGapApproach.pdf, id=303, 241.84352pt x 183.2446pt>
 File: figGapApproach.pdf Graphic file (type pdf)
 <use figGapApproach.pdf>
-Package pdftex.def Info: figGapApproach.pdf  used on input line 433.
+Package pdftex.def Info: figGapApproach.pdf  used on input line 429.
 (pdftex.def)             Requested size: 301.12305pt x 228.18839pt.
 
 [7 <./figGapApproach.pdf>]
 
 pdfTeX warning: pdflatex (file ./fig3way_2.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<fig3way_2.pdf, id=328, 498.21132pt x 274.01674pt>
+<fig3way_2.pdf, id=338, 498.21132pt x 274.01674pt>
 File: fig3way_2.pdf Graphic file (type pdf)
 <use fig3way_2.pdf>
-Package pdftex.def Info: fig3way_2.pdf  used on input line 447.
+Package pdftex.def Info: fig3way_2.pdf  used on input line 440.
 (pdftex.def)             Requested size: 301.12305pt x 165.62383pt.
-[8 <./fig3way_2.pdf>] [9] [10]
+[8 <./fig3way_2.pdf>] [9] [10] [11] [12
+
+]
 Chapter 3.
 
 
 pdfTeX warning: pdflatex (file ./figDevOps.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<figDevOps.pdf, id=389, 401.5pt x 232.32095pt>
+<figDevOps.pdf, id=410, 401.5pt x 232.32095pt>
 File: figDevOps.pdf Graphic file (type pdf)
 <use figDevOps.pdf>
-Package pdftex.def Info: figDevOps.pdf  used on input line 702.
+Package pdftex.def Info: figDevOps.pdf  used on input line 723.
 (pdftex.def)             Requested size: 451.68457pt x 261.37814pt.
-[11
-
-]
-<figDeadline.pdf, id=394, 192.73856pt x 151.07843pt>
+[13]
+<figDeadline.pdf, id=415, 192.73856pt x 151.07843pt>
 File: figDeadline.pdf Graphic file (type pdf)
 <use figDeadline.pdf>
-Package pdftex.def Info: figDeadline.pdf  used on input line 707.
+Package pdftex.def Info: figDeadline.pdf  used on input line 728.
 (pdftex.def)             Requested size: 150.56152pt x 118.01819pt.
-<figProjectWorkflow_BiomimeticActinDroplets.pdf, id=397, 1132.80208pt x 393.804
+<figProjectWorkflow_BiomimeticActinDroplets.pdf, id=418, 1132.80208pt x 393.804
 26pt>
 File: figProjectWorkflow_BiomimeticActinDroplets.pdf Graphic file (type pdf)
 <use figProjectWorkflow_BiomimeticActinDroplets.pdf>
 Package pdftex.def Info: figProjectWorkflow_BiomimeticActinDroplets.pdf  used o
-n input line 728.
+n input line 749.
 (pdftex.def)             Requested size: 451.68457pt x 157.02016pt.
- [12 <./figDevOps.pdf> <./figDeadline.pdf>] [13 <./figProjectWorkflow_Biomimeti
-cActinDroplets.pdf>] [14]
+ [14 <./figDevOps.pdf> <./figDeadline.pdf>] [15 <./figProjectWorkflow_Biomimeti
+cActinDroplets.pdf>] [16]
 Chapter 4.
-[15
+[17
 
 ]
-<figTimeline.pdf, id=593, 406.67233pt x 145.00172pt>
+<figTimeline.pdf, id=615, 406.67233pt x 145.00172pt>
 File: figTimeline.pdf Graphic file (type pdf)
 <use figTimeline.pdf>
-Package pdftex.def Info: figTimeline.pdf  used on input line 934.
+Package pdftex.def Info: figTimeline.pdf  used on input line 955.
 (pdftex.def)             Requested size: 451.68457pt x 161.05557pt.
 
 
 pdfTeX warning: pdflatex (file ./figExamTimeline.pdf): PDF inclusion: found PDF
  version <1.6>, but at most version <1.5> allowed
-<figExamTimeline.pdf, id=594, 401.5pt x 374.62059pt>
+<figExamTimeline.pdf, id=616, 401.5pt x 374.62059pt>
 File: figExamTimeline.pdf Graphic file (type pdf)
 <use figExamTimeline.pdf>
-Package pdftex.def Info: figExamTimeline.pdf  used on input line 991.
+Package pdftex.def Info: figExamTimeline.pdf  used on input line 1012.
 (pdftex.def)             Requested size: 451.68457pt x 421.4757pt.
-[16 <./figTimeline.pdf>] [17 <./figExamTimeline.pdf>] [18]
+[18 <./figTimeline.pdf>] [19 <./figExamTimeline.pdf>] [20]
 Chapter 5.
-[19
-
-] [20]
-Chapter 6.
 [21
 
-] (./theallardlabmanual.ind) [22] (./theallardlabmanual.aux)
+] [22]
+Chapter 6.
+[23
+
+] [24] (./theallardlabmanual.ind) [25] (./theallardlabmanual.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `theallardlabmanual.out' has not changed.
-(rerunfilecheck)             Checksum: 6456502AFD04FFCD9E37FB67A7323866;7627.
+(rerunfilecheck)             Checksum: 22205E2A1208EE0565DC61EE8B148512;8293.
  ) 
 Here is how much of TeX's memory you used:
- 16487 strings out of 474116
- 274228 string characters out of 5743682
+ 16536 strings out of 474116
+ 274954 string characters out of 5743682
  1942187 words of memory out of 5000000
- 38367 multiletter control sequences out of 15000+600000
- 608304 words of font info for 74 fonts, out of 8000000 for 9000
+ 38389 multiletter control sequences out of 15000+600000
+ 619960 words of font info for 89 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 72i,12n,79p,853b,670s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,79p,1192b,650s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></usr/loca
 l/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texl
 ive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2
 024/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on theallardlabmanual.pdf (26 pages, 2908377 bytes).
+Output written on theallardlabmanual.pdf (29 pages, 2913329 bytes).
 PDF statistics:
- 752 PDF objects out of 1000 (max. 8388607)
- 571 compressed objects within 6 object streams
- 105 named destinations out of 1000 (max. 500000)
- 392 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 781 PDF objects out of 1000 (max. 8388607)
+ 597 compressed objects within 6 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 408 words of extra memory for PDF output out of 10000 (max. 10000000)
 
