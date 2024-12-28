@@ -67,9 +67,10 @@ To achieve our mission, we adopt certain principles, or "virtues". Every virtue 
     - Virtue: We *memorialize* our own stuff, both for internal future use and possible external future use. See Dev Ops section
 - Value: We value time, the most scarce and precious resource.
    - Virtue: Being on-time.
-   - Jun's Rule If Jun is late, Jun agrees to put $1/min/attendee into an Allard Lab discretionary fund.
+   
+   .. - Jun's Rule If Jun is late, Jun agrees to put $1/min/attendee into an Allard Lab discretionary fund. 
 - Value: We make other people want to work with us.
     - Virtue: Being a good listener, being excessively respectful of others. There are essential policies that have to do with respecting our colleagues, led by the wider scientific community, the UCI community, and our other affiliated communities. Besides meeting those standards, we try to go beyond them.
 - Value: We think our projects are cool, in addition to useful.
-  - *[Jun Question for Team] Should we start posting fun visuals, etc., on social media: X/Twitter, Threads, LinkedIn, other?.*
+  - *[Jun Question for Team] Should we start posting fun visuals, etc., on social media: BlueSky LinkedIn, other?.*
 
