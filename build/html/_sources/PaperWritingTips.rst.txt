@@ -56,6 +56,8 @@ Writing tips
 
 * Writing a paper is a continuum of fact-reporting (“we did this”, “we observed this”) to interpretation (“this suggests that…”, “this might have implications for…”). Caption is most factual, followed by Results text, followed by figure caption first sentence and Result headings. Discussion is most interpretation. For some historical reason, the figure caption's first sentence is the interpretation, while the subfigure sentences are factual.
 
+* `"My Ph.D. advisor rewrote himself in bash" <https://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/>`
+
 * `Twelve scientist-endorsed tips to get over writer’s block, Nature 2024 <https://www.nature.com/articles/d41586-024-02013-4>`
 
 * Whitehead said, “By relieving the brain of all unnecessary work, a good notation sets it free to concentrate on more advanced problems, and in effect increases the mental power of [the reader].”
