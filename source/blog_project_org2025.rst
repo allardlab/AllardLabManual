@@ -103,7 +103,7 @@ Create a tag/Folder in ReadCube, and use the browser plugin to tag papers as I f
    :alt: Bibliography
 
 And then, get both citations and sketches into a tex repo!
-My `prototype latex repo __JunsLatexRepository__ <JunsLatexRepository>`_ with a fictitious project called JeanJacket.
+My `prototype latex repo JunsLatexRepository <JunsLatexRepository>`_ with a fictitious project called JeanJacket.
 One .tex for scratch notes, one for the eventual manuscript (which can wait).
 My favorite ``.gitignore`` which I've accumulated over the years.
 GitHub Actions in the ``.github`` directory will automatically compile the tex into pdf (so far, this is just a parlor trick, I've never found it useful).
@@ -121,11 +121,11 @@ Things that I've learned to do later than you might think
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In any project, there is *Question-space dimensionality expansion*. 
-Questions-space dimensionality expansion. You don't know what parameter you are going to want to explore next. 
+You don't know what parameter you are going to want to explore next. 
 Until the first narrative (and even after it), open exploration is such a key part that I try hard to avoid the fallacy, "I will design the code to be flexible for any future question." 
 I would always fail at trying to do code architecture in what IBM (I think?) called "waterfall" design.
 Instead, I am constantly refactoring.
-Before the 10-key-sentence moment, I am very forgiving of myself for bad overall code organization, subfolder organization, etc.
+Therefore, before the "10-key-sentence moment", I am very forgiving of myself for bad overall code organization, subfolder organization, etc.
 Instead, refactoring is a continuous process.
 (Maybe this is what makes scientific computing most different than, e.g., app development?)
 After the first narrative, I spend >20% of time and >50% of lines of code doing refactoring and code that organizes question-space dimensionality.
@@ -226,7 +226,7 @@ The Keynote poster and talk escape arrow
 -------------------------------------
 
 Think of all figures in Illustrator for the paper, and then make an edited version for Keynote (poster or talk).
-I don't remake the axes or labels in Illustrator, rather I just go into Keynote, put a white rectagnle (or whatever color background) and put the text in Keynote. Easier to edit.
+I don't remake the axes or labels in Illustrator, rather I just go into Keynote, put a white rectangle (or whatever color background) and put the text in Keynote. Easier to edit.
 
 From Figures and Captions to a draft manuscript!
 --------------------------------------------
@@ -265,7 +265,7 @@ The transition to PI-as-decision-owner.
 No matter how big the team is, at some point, near peer-review manuscript submission, one person (the PI) takes role as final decision-owner.
 
 Towards the end, we strive for a *culture* of concensus and discussion, but a *policy* of clear decision-ownership, so we don't get stuck in never-ending decision making, so things can actually get done. 
-My sacred principle is to get new knowledge out into the scientific knowledge: Whenever I think, "wouldn't it be nice to do more before submitting?", I always remind myself, the world doesn't benefit from something you didn't share!
+My sacred principle, in order to be honest to my job of contributing new knowledge into the scientific world, is this: Whenever I think, "wouldn't it be nice to do more before submitting?", I always remind myself, the world doesn't benefit from something you didn't share!
 
 Revisions!
 ---------
@@ -298,8 +298,8 @@ When it gets accepted, the first author signs a bottle of bubbly:
 Closing thoughts
 --------------
 
-How do we deal with proprietary/free/open-source/pay software? Should I switch to Inkspace?
+* How do we deal with proprietary/free/open-source/pay software? Should I switch to Inkspace?
 
-I use MacOS and Linux. How are things in Microsoft Windows?
+* I use MacOS and Linux. How are things in Microsoft Windows?
 
-What are your tricks and tips?
+* What are your tricks and tips?
