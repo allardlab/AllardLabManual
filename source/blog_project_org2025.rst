@@ -179,9 +179,9 @@ As I work, I usually have 3 VSCode windows open: the latex repo, the code repo, 
 You can get them to all have a different specified color theme using ``code-workspace`` files.
 A surprising amount of time is spent "tabbing" to the latex repo window, where I'm constantly taking notes, recording what model equations I'm currently using, etc.
 
-.. image:: _static/figThreeWindows.png
+.. image:: figThreeWindows.png
    :alt: Three-VSCode-Window
-   :target: _static/figThreeWindows.png
+   :target: figThreeWindows.png
 
 
 How often should you ``git commit``? How to quickly write useful commit messages?
