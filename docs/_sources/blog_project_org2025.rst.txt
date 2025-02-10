@@ -181,7 +181,7 @@ A surprising amount of time is spent "tabbing" to the latex repo window, where I
 
 .. image:: figThreeWindows.png
    :alt: Three-VSCode-Window
-   :target: figThreeWindows.png
+   :target: _images/figThreeWindows.png
 
 
 How often should you ``git commit``? How to quickly write useful commit messages?
