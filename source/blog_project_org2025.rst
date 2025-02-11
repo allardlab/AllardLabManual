@@ -268,8 +268,10 @@ Useful heuristics about git, neither of which are strictly true but useful as fi
 
 Transition to PI-as-decision-owner.
 No matter how big the team is, at some point, near peer-review manuscript submission, one person (the PI/Corresponding) takes role as final decision-owner.
+
 ..
    Towards the end, we strive for a *culture* of concensus and discussion, but a *policy* of clear decision-ownership, so we don't get stuck in never-ending decision making, so things can actually get done. 
+
 My sacred principle, in order to be honest to my job of contributing new knowledge into the scientific world, is this: Whenever I think, "wouldn't it be nice to do more of *x* before submitting?", I always remind myself, the world doesn't benefit from something you didn't share!
 
 Revisions!
