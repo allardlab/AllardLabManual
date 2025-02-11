@@ -1,3 +1,4 @@
+:no-sidebar:
 
 How I organize science projects in 2025
 #######################################
@@ -83,6 +84,7 @@ Chronological timeline
 
 .. image:: figProjectTimeline.png
    :alt: Chronological timeline
+   :target: _images/figProjectTimeline.png
 
 An idea or cool hypothesis, literature
 -----------------------------------
@@ -101,6 +103,7 @@ Create a tag/Folder in ReadCube, and use the browser plugin to tag papers as I f
 
 .. image:: figLiterature.png
    :alt: Bibliography
+   :target: _images/figLiterature.png
 
 And then, get both citations and sketches into a tex repo!
 My `prototype latex repo JunsLatexRepository <JunsLatexRepository>`_ with a fictitious project called JeanJacket.
