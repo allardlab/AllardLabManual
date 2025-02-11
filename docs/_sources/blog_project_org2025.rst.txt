@@ -1,4 +1,4 @@
-:no-sidebar:
+:html_sidebars: {}
 
 How I organize science projects in 2025
 #######################################
