@@ -22,7 +22,7 @@ html_output_dir = 'docs'
 # -- Project information -----------------------------------------------------
 
 project = 'The Allard Lab Manual'
-copyright = '2024, Jun Allard'
+copyright = '2025, Jun Allard'
 author = 'Jun'
 
 
