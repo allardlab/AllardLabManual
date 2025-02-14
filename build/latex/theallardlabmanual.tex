@@ -10,6 +10,9 @@
 %% let collapsible pdf bookmarks panel have high depth per default
 \PassOptionsToPackage{bookmarksdepth=5}{hyperref}
 
+\PassOptionsToPackage{booktabs}{sphinx}
+\PassOptionsToPackage{colorrows}{sphinx}
+
 \PassOptionsToPackage{warn}{textcomp}
 \usepackage[utf8]{inputenc}
 \ifdefined\DeclareUnicodeCharacter
@@ -61,13 +64,18 @@
 
 
 \title{The Allard Lab Manual}
-\date{Feb 10, 2025}
+\date{Feb 14, 2025}
 \release{}
 \author{Jun}
 \newcommand{\sphinxlogo}{\vbox{}}
 \renewcommand{\releasename}{}
 \makeindex
 \begin{document}
+
+\ifdefined\shorthandoff
+  \ifnum\catcode`\=\string=\active\shorthandoff{=}\fi
+  \ifnum\catcode`\"=\active\shorthandoff{"}\fi
+\fi
 
 \pagestyle{empty}
 \sphinxmaketitle
@@ -83,9 +91,13 @@ The source file is on github at \sphinxhref{https://github.com/allardlab/AllardL
 You are welcome to fork and pull\sphinxhyphen{}request improvements.
 There is also a \sphinxhref{https://github.com/allardlab/AllardLabManual/raw/main/build/latex/theallardlabmanual.pdf}{compiled latex version}.
 
+\sphinxstepscope
+
 
 \chapter{Mission statement}
 \label{\detokenize{01OurMission:mission-statement}}\label{\detokenize{01OurMission::doc}}
+\sphinxstepscope
+
 
 \section{Peer reviewing}
 \label{\detokenize{PeerReviewing:peer-reviewing}}\label{\detokenize{PeerReviewing:id1}}\label{\detokenize{PeerReviewing::doc}}
@@ -148,10 +160,10 @@ worldwide, multi\sphinxhyphen{}generational tapestry of scientific knowledge
 To achieve our mission, we adopt certain principles, or “virtues”. Every virtue comes from a value.
 \begin{itemize}
 \item {} \begin{description}
-\item[{Value: We try to make other people’s science better.}] \leavevmode\begin{itemize}
+\sphinxlineitem{Value: We try to make other people’s science better.}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
-Virtue: Peer Reviewing See this {\hyperref[\detokenize{PeerReviewing:peer-reviewing}]{\sphinxcrossref{\DUrole{std,std-ref}{Peer reviewing}}}} section.
+Virtue: Peer Reviewing See this {\hyperref[\detokenize{PeerReviewing:peer-reviewing}]{\sphinxcrossref{\DUrole{std}{\DUrole{std-ref}{Peer reviewing}}}}} section.
 
 \item {} 
 \sphinxAtStartPar
@@ -162,7 +174,7 @@ Virtue: We \sphinxstyleemphasis{memorialize} our own stuff, both for internal fu
 \end{description}
 
 \item {} \begin{description}
-\item[{Value: We value time, the most scarce and precious resource.}] \leavevmode\begin{itemize}
+\sphinxlineitem{Value: We value time, the most scarce and precious resource.}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Virtue: Being on\sphinxhyphen{}time.
@@ -172,7 +184,7 @@ Virtue: Being on\sphinxhyphen{}time.
 \end{description}
 
 \item {} \begin{description}
-\item[{Value: We aspire for other people want to work with us.}] \leavevmode\begin{itemize}
+\sphinxlineitem{Value: We aspire for other people want to work with us.}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Virtue: Being a good listener, being excessively respectful of others. There are essential policies that have to do with respecting our colleagues, led by the wider scientific community, the UCI community, and our other affiliated communities. Besides meeting those standards, we try to go beyond them.
@@ -188,9 +200,13 @@ Value: We think our projects are cool, in addition to valuable.
 
 \end{itemize}
 
+\sphinxstepscope
+
 
 \chapter{Elements of a scientific contribution}
 \label{\detokenize{02Elements:elements-of-a-scientific-contribution}}\label{\detokenize{02Elements::doc}}
+\sphinxstepscope
+
 
 \section{Jun’s paper writing tips and trick}
 \label{\detokenize{PaperWritingTips:jun-s-paper-writing-tips-and-trick}}\label{\detokenize{PaperWritingTips:paperwritingtips}}\label{\detokenize{PaperWritingTips::doc}}
@@ -255,7 +271,7 @@ Omer’s 4 key questions to answer in a cover letter: (1) How will this work mak
 \end{itemize}
 
 \sphinxAtStartPar
-Now relax. Measured in “wall clock” time, you might be halfway. The next step requires a stomach: {\hyperref[\detokenize{OldEmails:receiving-reviews}]{\sphinxcrossref{\DUrole{std,std-ref}{receiving peer review}}}}.
+Now relax. Measured in “wall clock” time, you might be halfway. The next step requires a stomach: {\hyperref[\detokenize{OldEmails:receiving-reviews}]{\sphinxcrossref{\DUrole{std}{\DUrole{std-ref}{receiving peer review}}}}}.
 
 
 \subsection{Jun’s Revision process}
@@ -561,7 +577,7 @@ A lot of writing will get thrown away as the project evolves. \sphinxstylestrong
 \end{itemize}
 
 \sphinxAtStartPar
-The {\hyperref[\detokenize{PaperWritingTips:paperwritingtips}]{\sphinxcrossref{\DUrole{std,std-ref}{paper writing process}}}}
+The {\hyperref[\detokenize{PaperWritingTips:paperwritingtips}]{\sphinxcrossref{\DUrole{std}{\DUrole{std-ref}{paper writing process}}}}}
 
 
 \section{External resources}
@@ -598,9 +614,8 @@ The \sphinxcode{\sphinxupquote{Oxford Biomedical Sciences PhD ("DPhil") proposal
 \sphinxAtStartPar
 Overflowing work hours (all\sphinxhyphen{}nighters etc) are avoidable.
 It often feels like there is a crisis, and there is a sudden need to push to make it.
-This phenomenon is sometimes called “heroics” \sphinxstepexplicit %
-\begin{footnote}[1]\phantomsection\label{\thesphinxscope.1}%
-\sphinxAtStartFootnote
+This phenomenon is sometimes called “heroics” %
+\begin{footnote}[1]\sphinxAtStartFootnote
 Some organizations believe that “heroics” are bad: they show the system failed. Then again, they are also a sign of optimism, aspiration: Many creators say they wouldn’t have been able to achieve greatness if they knew how hard it would be when they started. Sometimes there is an opportunity you want to pursue, but we don’t have 10 weeks. The important thing is that you know what you’re getting into.
 %
 \end{footnote} .
@@ -612,7 +627,7 @@ The time it takes for each step get shorter with (1) experience and (2) trust wi
 
 \sphinxAtStartPar
 Note many steps involve feedback to previous steps (e.g., in oral part you often realize you need a figure modification).
-.. So, in true {\hyperref[\detokenize{03CodersAtWork:codersatwork}]{\sphinxcrossref{\DUrole{std,std-ref}{DevOps}}}} philosophy, you should plan to revisit every step.
+.. So, in true {\hyperref[\detokenize{03CodersAtWork:codersatwork}]{\sphinxcrossref{\DUrole{std}{\DUrole{std-ref}{DevOps}}}}} philosophy, you should plan to revisit every step.
 .. We have a rigorous imposed timeline when getting ready to present a result to the outside world.
 .. The time it takes for each step get shorter with experience and trust with the collaborators and with me.
 In general during a science project, I try to serve as an advisor rather than a gatekeeper, but in terms of communicating and exposing it to the world, here I invoke my prerogative to be more controlling, at least at first.
@@ -663,7 +678,9 @@ When going through this for the first time, I insist on a number of weeks for ea
 As you become more experience and I get over my trust issues, the steps accelerate \textendash{}in some cases a lot! (this acceleration is an honor for me to watch, and one of the single biggest joys in my professional life) \textendash{} but they sorta never go away.
 
 \sphinxAtStartPar
-The above rough guideline of \sphinxstyleemphasis{ten weeks to a presentation} is related to the rough guideline of {\hyperref[\detokenize{PaperWritingTips:paperwritingtips}]{\sphinxcrossref{\DUrole{std,std-ref}{ten weeks to a paper}}}}.
+The above rough guideline of \sphinxstyleemphasis{ten weeks to a presentation} is related to the rough guideline of {\hyperref[\detokenize{PaperWritingTips:paperwritingtips}]{\sphinxcrossref{\DUrole{std}{\DUrole{std-ref}{ten weeks to a paper}}}}}.
+
+\sphinxstepscope
 
 
 \chapter{Coders at Work}
@@ -761,7 +778,7 @@ Wilson et al, \sphinxhref{https://journals.plos.org/ploscompbiol/article?id=10.1
 Here are some rough guideline
 \begin{itemize}
 \item {} \begin{description}
-\item[{Even for the simplest code:}] \leavevmode\begin{itemize}
+\sphinxlineitem{Even for the simplest code:}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Thoughtful variable names with consistent style (\sphinxcode{\sphinxupquote{camelCase}}, \sphinxcode{\sphinxupquote{snake\_style}}, etc)
@@ -775,7 +792,7 @@ Comment at the top that says what the script tries to achieve
 \end{description}
 
 \item {} \begin{description}
-\item[{When you have a presentable figure}] \leavevmode\begin{itemize}
+\sphinxlineitem{When you have a presentable figure}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 git and version control
@@ -789,7 +806,7 @@ Design a single source of truth, within a scripts. i.e., design so you don’t n
 \end{description}
 
 \item {} \begin{description}
-\item[{Past the \sphinxhref{https://www.johndcook.com/blog/2011/11/22/norris-number/}{Norris limit} of around 1500 lines}] \leavevmode\begin{itemize}
+\sphinxlineitem{Past the \sphinxhref{https://www.johndcook.com/blog/2011/11/22/norris-number/}{Norris limit} of around 1500 lines}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 The Norris limit is rough amount of code an untrained programmer can write before the code becomes so tangled that the author cannot debug or modify it without herculean effort.
@@ -811,7 +828,7 @@ Roughly 20\% of time “refactoring” (improving the code even if it’s workin
 \end{description}
 
 \item {} \begin{description}
-\item[{Once the first draft project outline has crystalized (you know the question/gap and approach, and know the figures to generate). This can be one hour a day, one day a week, or one week per month.}] \leavevmode\begin{itemize}
+\sphinxlineitem{Once the first draft project outline has crystalized (you know the question/gap and approach, and know the figures to generate). This can be one hour a day, one day a week, or one week per month.}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 Design a single source of truth, within the workflow.
@@ -829,7 +846,7 @@ Project workflow diagram using draw.io or similar
 \end{description}
 
 \item {} \begin{description}
-\item[{How big should a file be? How big should a function be?}] \leavevmode
+\sphinxlineitem{How big should a file be? How big should a function be?}
 \end{description}
 
 \end{itemize}
@@ -842,6 +859,8 @@ Resources for coders at work
 \sphinxhref{https://missing.csail.mit.edu/}{The Missing Semester of Your CS Education}
 
 \end{itemize}
+
+\sphinxstepscope
 
 
 \chapter{What is a PhD?}
@@ -997,7 +1016,7 @@ T\sphinxhyphen{}minus 0: Advance!
 \noindent\sphinxincludegraphics[width=600\sphinxpxdimen]{{figExamTimeline}.pdf}
 
 \sphinxAtStartPar
-To schedule a meeting, see my old e\sphinxhyphen{}mail with {\hyperref[\detokenize{OldEmails:scheduling}]{\sphinxcrossref{\DUrole{std,std-ref}{tips on scheduling meetings}}}}.
+To schedule a meeting, see my old e\sphinxhyphen{}mail with {\hyperref[\detokenize{OldEmails:scheduling}]{\sphinxcrossref{\DUrole{std}{\DUrole{std-ref}{tips on scheduling meetings}}}}}.
 \begin{itemize}
 \item {} 
 \sphinxAtStartPar
@@ -1068,6 +1087,8 @@ A skill or technique I want to learn and teach the group is…
 In the \sphinxhref{https://hbr.org/resources/images/article\_assets/2020/10/R2006F\_PODOLNY\_ROSNER-768x1189.png}{own\sphinxhyphen{}learn\sphinxhyphen{}teach\sphinxhyphen{}delegate} axes, here is something I want to delegate to Jun/someone else, and something I want to take ownership of:…
 
 \end{enumerate}
+
+\sphinxstepscope
 
 
 \chapter{The Group!}
@@ -1148,9 +1169,13 @@ How do we maximally exploit RH274 in the post\sphinxhyphen{}covid era?
 \sphinxAtStartPar
 Should we do a weekly Starbucks/Peet’s coffee break?
 
+\sphinxstepscope
+
 
 \chapter{Working with Jun / “A user guide to Jun”}
 \label{\detokenize{06UserGuideToJun:working-with-jun-a-user-guide-to-jun}}\label{\detokenize{06UserGuideToJun::doc}}
+\sphinxstepscope
+
 
 \section{Old e\sphinxhyphen{}mails}
 \label{\detokenize{OldEmails:old-e-mails}}\label{\detokenize{OldEmails::doc}}
