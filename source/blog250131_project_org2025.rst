@@ -3,12 +3,12 @@
 How I organize science projects in 2025
 #######################################
 
-*by Jun Allard*
+*by Jun Allard, 2025-01-31*
 
 ... or, "How to be a Scientist in these easy steps!"
 
-None of this is presprictive or optimized, here, although I do prescribe some things 
-from my team, which are an intersecting set with things below.
+None of this is presprictive nor do I think it really optimal, here. 
+Although, I do prescribe some things for my team, which are an intersecting set with items below.
 
 Directory structure
 ------------------
@@ -56,10 +56,10 @@ Grasping and tracking the scientific problem:
 The computational approach:
 
 * VSCode and Julia (VSCode and Matlab also has a plugin)
-* iterm, zsh, OhMyZsh
+* iterm, zsh, `OhMyZsh <https://ohmyz.sh/>`_
 * julialang
 * Microsoft Excel
-* SLURM, rsync, rclone
+* SLURM, rsync, `rclone <https://rclone.org/>`_
 
 Scientific communication:
 
@@ -161,7 +161,7 @@ First has to do with the unknown "question-space dimensionality". I don't always
 Second, it reduces my emotional attachment to any given run.
 I accept that it's all going to be redone! As the saying goes, treat your runs as **cattle, not pets**!
 
-Consistent with the policy of making it easy to create and store things, I have `script that automatically create folders with the date, and define the project directory <JunTools.jl>`_ in a Julia package called ``JunTools.jl`` so that I can do things like::
+Consistent with the policy of making it easy to create and store things, I have `script that automatically create folders with the date, and define the project directory <https://github.com/allardjun/JunTools.jl>`_ in a Julia package called ``JunTools.jl`` so that I can do things like::
 
     run_name = "bubblegum"
 
@@ -219,6 +219,7 @@ It's not quite an abstract, because it can be longer, have citations, etc., but 
 .. image:: https://preview.redd.it/it-is-possible-to-do-this-in-latex-v0-7fdnco9qa3ge1.png?auto=webp&s=46b3ea51c54f40c2a5ca7bc455d17119e459e224
    :alt: Nature Abstract guide
    :width: 400
+   :align: center
 
 I try to see the 10 sentences as early as I can. 
 Don't be afraid to write the first one down, and change it later as results and project goals evolve. 
