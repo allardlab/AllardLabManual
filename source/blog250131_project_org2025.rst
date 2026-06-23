@@ -7,11 +7,11 @@ How I organize science projects in 2025
 
 ... or, "How to be a Scientist in these easy steps!"
 
-None of this is presprictive nor do I think it really optimal, here. 
+None of this is prescriptive nor do I think it really optimal, here.
 Although, I do prescribe some things for my team, which are an intersecting set with items below.
 
 Directory structure
-------------------
+-------------------
 
 For a new project, it immediately lives in six places::
 
@@ -41,7 +41,7 @@ Only tex and git are version-controlled.
 The others are backed up to the cloud, e.g., Allard Lab Google Drive.
 
 Favorite software
----------------
+-----------------
 
 Grasping and tracking the scientific problem:
 
@@ -67,7 +67,7 @@ Scientific communication:
 * Latexit
 
 Chronological timeline
---------------------
+----------------------
 
 1. An idea, a dataset, a scientific question, a cool/fun puzzle and hypothesis
 2. Coder at work! Part I: Before the first narrative
@@ -87,7 +87,7 @@ Chronological timeline
    :target: _images/figProjectTimeline.png
 
 An idea or cool hypothesis, literature
------------------------------------
+--------------------------------------
 
 Very early, I create a place to put things (papers, code snippets, stray thoughts) and version-control these.
 Streamline the process to store things. 
@@ -96,7 +96,7 @@ I never want to hesitate before *storing* something.
 Make sketches in Notability or equivalent, and a pipeline to easily get these sketches into Illustrator and then the latex repo.
 I find real creative thought happens through sketches.
 As I like to say, "you are spending too much time plotting, not enough time sketching!"
-(which is maybe related to the old addage about "forest for the trees").
+(which is maybe related to the old adage about "forest for the trees").
 
 Literature. Papers on the internet. 
 Create a tag/Folder in ReadCube, and use the browser plugin to tag papers as I find them:
@@ -106,14 +106,14 @@ Create a tag/Folder in ReadCube, and use the browser plugin to tag papers as I f
    :target: _images/figLiterature.png
 
 And then, get both citations and sketches into a tex repo!
-My `prototype latex repo JunsLatexRepository <JunsLatexRepository>`_ with a fictitious project called JeanJacket.
+My `prototype latex repo JunsLatexRepository <https://github.com/allardjun/JunsLatexRepository>`_ with a fictitious project called JeanJacket.
 One .tex for scratch notes, one for the eventual manuscript (which can wait).
 My favorite ``.gitignore`` which I've accumulated over the years.
 GitHub Actions in the ``.github`` directory will automatically compile the tex into pdf (so far, this is just a parlor trick, I've never found it useful).
 Link to Overleaf if you have collaborators who like that (it's a button in Overleaf).
 
 Coder at work! Part 1 and 2
---------------------------
+---------------------------
 
 There is a magic moment when you have the first draft of the 10-sentence narrative of the project. 
 The reason "Coder at work!" splits into two parts is that the parts before and after the "magic moment" 
@@ -134,7 +134,7 @@ Instead, refactoring is a continuous process.
 After the first narrative, I spend >20% of time and >50% of lines of code doing refactoring and code that organizes question-space dimensionality.
 
 Things that I've learned to do *earlier* than you might think
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Anything that allows me to easily create and store things:
 ``rsync``, ``ssh-keygen``, 
@@ -154,7 +154,7 @@ Julia::
     ]
     activate .
 
-For every run, it has both a 6-digit date and a ``run_name``. 
+Every run has both a 6-digit date and a ``run_name``.
 For run names, I use `foods in alphabetical order <https://chatgpt.com/share/67a96f7d-bf6c-8011-9170-5f729d700599>`_.
 My students make fun of this, but it is for 2 reasons. 
 First has to do with the unknown "question-space dimensionality". I don't always know what parameter I'm going to vary for the following run, so naming something ``different_param_B`` is impossible until I know it was going to be ``param B`` that I would want to vary.
@@ -202,11 +202,11 @@ One notebook should never call something from another notebook; anything reused 
 
 
 The magic 10-key-sentence moment
------------------------------
+--------------------------------
 
 There is a magic moment when you can describe the proposed work in 5-15 sentences.
 With this little full-sentence blurb, someone can identify a gap in knowledge and an approach that addressed the gap.
-Early on, before we have the result, we word it as Hypotheses, and later on, the grammer will change, and it will be a Conclusion. 
+Early on, before we have the result, we word it as Hypotheses, and later on, the grammar will change, and it will be a Conclusion.
 Reading the 10 sentences *standalone* should be enough to understand the gap being addressed or new thing being contributed and why it is valuable. To exaggerate slightly: Everything except for validity of results, which goes into the paper.
 It's not quite an abstract, because it can be longer, have citations, etc., but it has the same approximately five-part structure:
 
@@ -229,13 +229,13 @@ Poor decisions will come back and bite you, but until you have the 10-sentence n
 A good 10-key-sentence summary implies a plan/wishlist for the **Figures and Captions**.
 
 The Keynote poster and talk escape arrow
--------------------------------------
+----------------------------------------
 
 Think of all figures in Illustrator for the paper, and then make an edited version for Keynote (poster or talk).
 I don't remake the axes or labels in Illustrator, rather I just go into Keynote, put a white rectangle (or whatever color background) and put the text in Keynote. Easier to edit.
 
 From Figures and Captions to a draft manuscript!
---------------------------------------------
+------------------------------------------------
 
 The "10-key-sentence" thing ended with having a wishlist for Figures and Captions. 
 Once I have the first draft of these, then:
@@ -250,7 +250,7 @@ Once I have the first draft of these, then:
 8. Draft cover letter to the handling editor. Key questions to answer in a cover letter: (1) How will this work make others think differently and move the field forward? (2) How does our work relate to current literature? (3) Who is the most relevant audience for the work? (4) What has the work accomplished and what has it not achieved?
 
 Git, GitHub, Latex in VSCode, Overleaf, and the transition to PI-as-decision-owner
------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
 
 Writing with multiple authors in latex+git:
 
@@ -271,16 +271,16 @@ Transition to PI-as-decision-owner.
 No matter how big the team is, at some point, near peer-review manuscript submission, one person (the PI/Corresponding) takes role as final decision-owner.
 
 ..
-   Towards the end, we strive for a *culture* of concensus and discussion, but a *policy* of clear decision-ownership, so we don't get stuck in never-ending decision making, so things can actually get done. 
+   Towards the end, we strive for a *culture* of consensus and discussion, but a *policy* of clear decision-ownership, so we don't get stuck in never-ending decision making, so things can actually get done.
 
 My sacred principle, in order to be honest to my job of contributing new knowledge into the scientific world, is this: Whenever I think, "wouldn't it be nice to do more of *x* before submitting?", I always remind myself, the world doesn't benefit from something you didn't share!
 
 Revisions!
----------
+----------
 
 Triple document structure for Revisions.
 My workflow for resubmissions is as follows. It's kind of cumbersome but I find it works.
-First, I read everything through and the **wait for a full 24 hours, to let my own emotions cool**. 
+First, I read everything through and then **wait for a full 24 hours, to let my own emotions cool**.
 Then, I go through the comments and give every Reviewer comment a code, like ``Rev1Minor3``.
 Note this is an opinionated, careful, thought-provoking process in itself. Then, I create three google docs:
 
@@ -296,7 +296,7 @@ It feels amazing to check off something in the dashboard.
    :alt: Revision dashboard
 
 Bubbly bottle signing event
--------------------------
+---------------------------
 
 When it gets accepted, the first author signs a bottle of bubbly:
 
@@ -304,9 +304,9 @@ When it gets accepted, the first author signs a bottle of bubbly:
    :alt: Bubbly
 
 Closing thoughts
---------------
+----------------
 
-* How do we deal with proprietary/free/open-source/pay software? Should I switch to Inkspace?
+* How do we deal with proprietary/free/open-source/pay software? Should I switch to Inkscape?
 
 * I use MacOS and Linux. How are things in Microsoft Windows?
 
