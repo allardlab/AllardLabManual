@@ -13,7 +13,7 @@ Although, I do prescribe some things for my team, which are an intersecting set 
 Directory structure
 -------------------
 
-For a new project, it immediately lives in six places::
+For a new project, it immediately lives in six places (the blank-line-separated groups below)::
 
     ReadCube/project_tag
 
@@ -70,9 +70,9 @@ Chronological timeline
 ----------------------
 
 1. An idea, a dataset, a scientific question, a cool/fun puzzle and hypothesis
-2. Coder at work! Part I: Before the first narrative
+2. Coder at work! Part 1: Before the first narrative
 3. The first narrative
-4. Coder at work! Part II: After the first narrative
+4. Coder at work! Part 2: After the first narrative
 5. Figures and captions
 6. Big literature review
 7. Forking latex repository
@@ -141,7 +141,10 @@ Anything that allows me to easily create and store things:
 a script to organize run outputs, 
 scripts that read in custom config files (one for a single local run, for a big hpc run, etc.)...
 
-Code reproducibility: package management, virtual environments, avoiding "dependency hell": For Python and Julia, figure this out early! For Matlab, R, and some cases of C, this is less an issue. Remember that code reproducibility is not just about ensuring it works on a different machine in a different time, but also about ensuring it works for a different *person* (typically that there is tacit knowledge the first author forgot to write down).
+Code reproducibility: package management, virtual environments, avoiding "dependency hell".
+For Python and Julia, figure this out early!
+For Matlab, R, and some cases of C, this is less an issue.
+Remember that code reproducibility is not just about ensuring it works on a different machine in a different time, but also about ensuring it works for a different *person* (typically that there is tacit knowledge the first author forgot to write down).
 
 Python::
 
@@ -204,11 +207,11 @@ One notebook should never call something from another notebook; anything reused 
 The magic 10-key-sentence moment
 --------------------------------
 
-There is a magic moment when you can describe the proposed work in 5-15 sentences.
+There is a magic moment when you can describe the proposed work in 5-15 sentences (I call it the "10-sentence" moment for shorthand).
 With this little full-sentence blurb, someone can identify a gap in knowledge and an approach that addressed the gap.
 Early on, before we have the result, we word it as Hypotheses, and later on, the grammar will change, and it will be a Conclusion.
 Reading the 10 sentences *standalone* should be enough to understand the gap being addressed or new thing being contributed and why it is valuable. To exaggerate slightly: Everything except for validity of results, which goes into the paper.
-It's not quite an abstract, because it can be longer, have citations, etc., but it has the same approximately five-part structure:
+It's not quite an abstract, because it can be longer, have citations, etc., but it has the same approximately five-part structure (of approximately 5-15 sentences in length):
 
 1. Background and broad question
 2. Specific question that we will deliver on
@@ -223,8 +226,8 @@ It's not quite an abstract, because it can be longer, have citations, etc., but 
 
 I try to see the 10 sentences as early as I can. 
 Don't be afraid to write the first one down, and change it later as results and project goals evolve. 
-A reason for this is that so many small decisions depend on the 10-key-sentence. 
-Poor decisions will come back and bite you, but until you have the 10-sentence narrative, dwelling on these decisions won't help, meaning good decisions will also come back and bite you!
+A reason for this is that so many small decisions depend on the 10-key-sentence narrative.
+Poor decisions will come back and bite you, but until you have the 10-sentence narrative, you can't tell the good decisions from the bad ones, so dwelling on them won't help -- which means good decisions will come back and bite you too!
 
 A good 10-key-sentence summary implies a plan/wishlist for the **Figures and Captions**.
 
