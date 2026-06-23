@@ -3,7 +3,7 @@
 How I organize science projects in 2025
 #######################################
 
-*by Jun Allard, 2025-01-31*
+*by Jun Allard, 2025-01-31, updated 2026-06-21*
 
 ... or, "How to be a Scientist in these easy steps!"
 
